@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Светлый фон */
+}
+
+.profile-header {
+    background-image: url('https://static.tildacdn.com/tild6465-3134-4531-b135-303430386463/1679151143_food-pibi.jpg'); /* Путь к изображению */
+    background-size: cover; /* Заполняет весь блок */
+    background-position: center; /* Центрирует изображение */
+    height: 300px; /* Высота шапки */
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание по центру */
+    color: #5b3e26;; /* Цвет текста */
+    padding: 20px; /* Отступы внутри шапки */
+   
+}
+.profile-header h1{
+    font-size: 55px;
+}
+.header-content {
+    max-width: 1200px; /* Максимальная ширина контента */
+    width: 100%; /* Ширина контента */
+}
+nav ul {
+    list-style-type: none; /* Убирает маркеры списка */
+    padding: 0; /* Убирает отступы */
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline; /* Выстраивает элементы в строку */
+    margin-right: 20px; /* Отступ между элементами меню */
+}
+
+nav ul li a {
+    color: #5b3e26; /* Цвет ссылок */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+.categories {
+    max-width: 1000px; /* Максимальная ширина блока */
+    margin: 20px auto; /* Центрирование блока */
+    text-align: center;
+}
+.categories h2 {
+    font-size: 35px;
+}
+.category-buttons {
+    display: flex; /* Используем Flexbox для центрирования */
+    flex-wrap: wrap; /* Позволяем кнопкам переноситься на следующую строку */
+    justify-content: center; /* Центрируем кнопки по горизонтали */
+    gap: 10px; /* Промежуток между кнопками */
+}
+
+.category-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5d4a39; /* Песочный */
+    color: #ffe6d2; /* Темно-оранжевый */
+    height: 200px; /* Высота кнопки */
+    width: 200px; /* Ширина кнопки */
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.category-button a{
+    font-size: 25px;
+}
+.category-button:hover {
+    background-color: #f0d69e; 
+    color: #5b3e26;/* Пастельный желтый */
+}
+
+.popular-recipes, .recommendations {
+    display: flex; /* Используем Flexbox для центрирования */
+    flex-wrap: wrap; /* Позволяем кнопкам переноситься на следующую строку */
+    justify-content: center; /* Центрируем кнопки по горизонтали */
+    gap: 10px; 
+   
+}
+
+h2 {
+    text-align: center;
+    color: #5b3e26; /* Темно-оранжевый */
+}
+
+.recipe-card {
+    display: block;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+}
+.recipe-card a{
+    color: black;
+    text-decoration: none;
+}
+.recipe-card a:hover{
+    color: black;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d9c6b2; /* Бежевый */
+    color: #5b3e26; /* Темно-оранжевый */
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Рецепты блюд</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9; /* Светлый фон */
+    }
+    
+    header {
+        background-color: #d9c6b2; /* Бежевый */
+        color: #5b3e26; /* Темно-оранжевый */
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav a {
+        color: #5b3e26; /* Темно-оранжевый */
+        text-decoration: none;
+    }
+    
+
+
+h1 {
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.job-title {
+    text-align: center;
+    color: #005427; /* Оранжевый акцент */
+}
+
+h2 {
+    color: #000000;
+}
+.job-conditions{
+    text-align: center;
+}
+.contact-info {
+    display: flex; /* Применяем Flexbox к родительскому элементу */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+}
+
+.contact-info img { 
+    width: 300px; 
+    border-radius: 8px; 
+}
+.container2 {
+    display: flex; /* Используем Flexbox для расположения элементов */
+    justify-content: space-between; /* Размещаем элементы по краям */
+}
+
+.job-description, .job-conditions {
+    flex: 1; /* Позволяем элементам занимать равное пространство */
+}
+.reviews-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.review {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.review-author {
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Flavor Alchemy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="receipt.html">Рецепты</a></li>
+                <li><a href="health.html">Здоровое питание</a></li>
+
+                <li><a href="tips.html">Статьи и советы</a></li>
+                <li><a href="video.html">Видео уроки</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<div class="container">
+    <h1 class="job-title">Овсяная каша</h1>
+    <div class="container2">
+    <div class="job-description">
+        <h2>Ингредиенты</h2>
+        <ul>
+            <li>Молоко</li>
+            <li>Сахар</li>
+            <li>Крупа овсяная</li>
+            <li>Вода</li>
+            <li>Соль</li>
+        </ul>
+    </div>
+    <div class="job-conditions">
+        <h2>Время приготовления</h2>
+        <p>15 минут</p>
+        
+    </div>
+</div>
+    <div class="company-info">
+        <h2>Процесс приготовления</h2>
+        <ol> 
+            <li><strong>Подготовка творога:</strong> Если творог слишком влажный, отожмите его через марлю или используйте отцеженный творог.</li> 
+            <li><strong>Смешивание ингредиентов:</strong> В глубокой миске соедините творог, яйцо, сахар, ванильный сахар и щепотку соли. Хорошо перемешайте все ингредиенты до однородной массы. Можно использовать вилку или погружной блендер для достижения более гладкой текстуры.</li> 
+            <li><strong>Добавление муки:</strong> Постепенно добавляйте муку и при необходимости разрыхлитель теста. Замесите тесто, чтобы оно стало мягким, но не липким. Если тесто слишком липкое, добавьте еще немного муки.</li> 
+            <li><strong>Формирование сырников:</strong> На присыпанной мукой поверхности сформируйте небольшие круглые лепешки (сырники) толщиной около 1-1,5 см. Обваляйте их в муке с обеих сторон.</li> 
+            <li><strong>Разогрев сковороды:</strong> На сковороде разогрейте растительное масло на среднем огне.</li> 
+            <li><strong>Жарка сырников:</strong> Выложите сырники на сковороду и жарьте до золотистой корочки с обеих сторон (примерно по 3-4 минуты с каждой стороны). Не overcrowd the pan, чтобы сырники хорошо прожарились.</li> 
+            <li><strong>Подача:</strong> Готовые сырники выложите на бумажное полотенце, чтобы убрать лишнее масло.</li> 
+        </ol>
+    </div>
+    <div class="contact-info">
+        <img src="https://avatars.mds.yandex.net/i?id=6f783dc50d9660bffd4a600fe520d563_l-5220538-images-thumbs&n=13" alt="Сырники">
+    </div>
+    <div class="reviews-container">
+        <h2>Отзывы</h2>
+        <div class="review">
+            <p class="review-text">"Эта паста просто великолепна! Соус насыщенный и ароматный, а паста приготовлена до идеальной аль денте."</p>
+            <p class="review-author">— Анна П.</p>
+        </div>
+        <div class="review">
+            <p class="review-text">"Никогда не думал, что домашняя паста может быть такой вкусной. Рекомендую всем!"</p>
+            <p class="review-author">— Сергей К.</p>
+        </div>
+        <div class="review">
+            <p class="review-text">"Простой рецепт, но результат превзошел все ожидания. Обязательно повторю!"</p>
+            <p class="review-author">— Мария Л.</p>
+        </div>
+    </div>
+</div>
+</html>

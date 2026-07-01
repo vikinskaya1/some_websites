@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Рецептов</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h2{
+            font-size: 35px;
+        }
+    .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.category {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.category h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #4e3b31;
+    padding-bottom: 10px;
+
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.card img {
+    border-radius: 8px 0 0 8px;
+    width: 300px; /* Ширина изображения */
+    height: 300px; /* Высота автоматически подстраивается */
+}
+
+.info {
+    padding: 20px;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #4e3b31; /* Темный коричневый */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c5d50; /* Светлее при наведении */
+}
+.info a{
+    text-decoration: none;
+    color: white;
+}
+.container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tips-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips-list li {
+    background: #f0ffcf;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tips-list li strong {
+    color: #0ba013; /* Цвет для выделения заголовков советов */
+}
+</style>
+</head>
+<body>
+    <header class="profile-header">
+        <div class="header-content">
+        <h1>Flavor Alchemy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="receipt.html">Рецепты</a></li>
+                <li><a href="health.html">Здоровое питание</a></li>
+                <li><a href="tips.html">Статьи и советы</a></li>
+                <li><a href="video.html">Видеоуроки</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+
+
+    <h2>Диетические блюда</h2><!-- Диетические блюда -->
+    <section class="category">
+        
+        <div class="card">  
+            <img src="https://avatars.mds.yandex.net/i?id=b1295f03950b27fa9283cc999b5b0de423c82ed6-5277625-images-thumbs&n=13" alt="Творожное суфле">  
+            <div class="info">  
+                <h3>Творожное суфле</h3>  
+                <p>Тип блюда: Десерт</p>  
+                <p>Время приготовления: 40 минут</p>  
+                <p>Сложность: Средне</p>  
+                <p>Кухня: Русская</p>  
+                <p>Специальные диеты: Безглютеновые</p>  
+                <button>Подробнее</button>  
+            </div>  
+        </div>
+        
+        <div class="card">  
+            <img src="https://avatars.mds.yandex.net/get-shedevrum/10713989/22a365f9b1b511ee86ac0a0d9f74bed2/orig" alt="Смузи из сельдерея">  
+            <div class="info">  
+                <h3>Смузи из сельдерея</h3>  
+                <p>Тип блюда: Напиток</p>  
+                <p>Время приготовления: 10 минут</p>  
+                <p>Сложность: Легко</p>  
+                <p>Кухня: Международная</p>  
+                <p>Специальные диеты: Веганские</p>  
+                <button>Подробнее</button>  
+            </div>  
+        </div>
+        
+        <div class="card">  
+            <img src="https://avatars.mds.yandex.net/get-shedevrum/11511289/img_0f4959080b1211ef94f31279fe61504a/orig" alt="Каша на кокосовом молоке">  
+            <div class="info">  
+                <h3>Каша на кокосовом молоке</h3>  
+                <p>Тип блюда: Завтрак</p>  
+                <p>Время приготовления: 25 минут</p>  
+                <p>Сложность: Легко</p>  
+                <p>Кухня: Азиатская</p>  
+                <p>Специальные диеты: Веганские, Безглютеновые</p>  
+                <button><a href="cocoporridge.html">Подробнее</a></button>
+            </div>  
+        </div>
+        
+        <div class="card">  
+            <img src="https://avatars.mds.yandex.net/i?id=0b06e6d5020b28b2eee1b2eca5a85e4da28a5b27-5858870-images-thumbs&n=13" alt="Овощные оладья">  
+            <div class="info">  
+                <h3>Овощные оладья</h3>  
+                <p>Тип блюда: Закуска</p>  
+                <p>Время приготовления: 30 минут</p>  
+                <p>Сложность: Легко</p>  
+                <p>Кухня: Русская</p>  
+                <p>Специальные диеты: Вегетарианские</p>  
+                <button>Подробнее</button>  
+            </div>  
+        </div>
+        
+        <div class="card">  
+            <img src="https://avatars.mds.yandex.net/get-altay/4797538/2a0000017951ae78391f514ffa96159f635a/XXL" alt="Яблочная пастила">  
+            <div class="info">  
+                <h3>Яблочная пастила</h3>  
+                <p>Тип блюда: Десерт</p>  
+                <p>Время приготовления: 60 минут (сушка)</p>  
+                <p>Сложность: Средне</p>  
+                <p>Кухня: Русская</p>  
+                <p>Специальные диеты: Веганские, Безглютеновые</p>  
+                <button>Подробнее</button>  
+            </div>  
+        </div>
+        
+        <div class="card">  
+            <img src="https://sun9-59.userapi.com/impg/3zwK2XIgNiZ4N8iOu59E6qBFJE1s6bwOTG-hHg/Cgmjz91_s2w.jpg?size=1024x1024&quality=96&sign=e723785569368945b0b57d1feb5a3b91&c_uniq_tag=fnUnmuXa9gzqjmBik2LBFOd0T0UcwikA654yB9co2u4&type=album" alt="Запеченные кабачки">  
+            <div class="info">  
+                <h3>Запеченные кабачки</h3>  
+                <p>Тип блюда: Основное блюдо</p>  
+                <p>Время приготовления: 40 минут</p>  
+                <p>Сложность: Легко</p>  
+                <p>Кухня: Итальянская</p>  
+                <p>Специальные диеты: Вегетарианские, Веганские</p>  
+                <button>Подробнее</button>  
+            </div>  
+        </div>
+        
+    </section>
+<h2>Советы по сбалансированному питанию</h2>
+<div class="container2">
+    <ul class="tips-list">
+        <li><strong>Разнообразие продуктов:</strong> Включайте в свой рацион различные группы продуктов — фрукты, овощи, зерновые, белки (мясо, рыба, бобовые) и молочные продукты. Это поможет обеспечить организм всеми необходимыми питательными веществами.</li>
+        <li><strong>Контроль порций:</strong> Обратите внимание на размеры порций. Переедание даже здоровой пищи может привести к набору веса. Используйте небольшие тарелки и старайтесь не отвлекаться во время еды.</li>
+        <li><strong>Умеренность в сладостях и жирной пище:</strong> Ограничьте потребление сахара, соли и насыщенных жиров. Старайтесь выбирать здоровые альтернативы, такие как фрукты вместо сладостей и оливковое масло вместо сливочного.</li>
+        <li><strong>Регулярность приемов пищи:</strong> Старайтесь есть регулярно, не пропуская приемы пищи. Это поможет поддерживать уровень энергии и предотвратить переедание в будущем. Уделяйте внимание завтраку — он задает тон всему дню.</li>
+    </ul>
+</div>
+<h2>Статьи о пользе и вреде продуктов</h2>
+    <div class="recommendations">
+        
+        <div class="recipe-card">
+            <img src="https://gardenerspath.com/wp-content/uploads/2023/04/How-to-Manage-Blossom-End-Rot-in-Zucchini-Feature.jpg" alt="Рекомендация 1">
+            <a href="#">Польза кабачков</a>
+        </div>
+        <div class="recipe-card">
+            <img src="https://avatars.mds.yandex.net/i?id=fd58bfba5413da2c1044a83a5089884c_l-5349727-images-thumbs&n=13" alt="Рекомендация 2">
+            <a href="#">Вред газировок</a>
+        </div>
+        <div class="recipe-card">
+            <img src="https://lorlor.ru/images/p686126.jpg" alt="Рекомендация 3">
+            <a href="#">Польза чеснока и лука</a>
+        </div>
+        <div class="recipe-card">
+            <img src="https://avatars.mds.yandex.net/get-pdb/1747905/c6b3474c-23cb-4083-a869-f521c5ceb206/s1200?webp=false" alt="Рекомендация 3">
+            <a href="#">Вред сладостей</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Сайт Рецептов. Все права защищены.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Рецепты блюд</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9; /* Светлый фон */
+    }
+    
+    header {
+        background-color: #d9c6b2; /* Бежевый */
+        color: #5b3e26; /* Темно-оранжевый */
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav a {
+        color: #5b3e26; /* Темно-оранжевый */
+        text-decoration: none;
+    }
+    .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.category {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.category h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #4e3b31;
+    padding-bottom: 10px;
+
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.card img {
+    border-radius: 8px 0 0 8px;
+    width: 300px; /* Ширина изображения */
+    height: 300px; /* Высота автоматически подстраивается */
+}
+
+.info {
+    padding: 20px;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #4e3b31; /* Темный коричневый */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c5d50; /* Светлее при наведении */
+}
+.info a{
+    text-decoration: none;
+    color: white;
+}</style>
+</head>
+<body>
+    <header>
+        <h1>Flavor Alchemy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="receipt.html">Рецепты</a></li>
+                <li><a href="health.html">Здоровое питание</a></li>
+                <li><a href="tips.html">Статьи и советы</a></li>
+                <li><a href="video.html">Видео уроки</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+        <h2>Завтраки</h2><!-- Завтраки -->
+        <section class="category" id="breakfast">
+            
+            <div class="card">
+                <img src="https://avatars.mds.yandex.net/i?id=f3001ac04c66178bb6d3a5c90f80eb15_l-7011639-images-thumbs&n=13" alt="Сырники">
+                <div class="info">
+                    <h3>Сырники</h3>
+                    <p>Тип блюда: Завтрак</p>
+                    <p>Время приготовления: 30 минут</p>
+                    <p>Сложность: Легко</p>
+                    <p>Кухня: Русская</p>
+                    <p>Специальные диеты: Вегетарианские</p>
+                    <button><a href="cardreceipt.html">Подробнее</a></button>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="https://adventurefactory.eu/images/nicepage-images/blinchiki_s_varenjem-1.jpeg" alt="Блины с джемом"> 
+                <div class="info"> 
+                    <h3>Блины с джемом</h3> 
+                    <p>Тип блюда: Завтрак</p> 
+                    <p>Время приготовления: 40 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Вегетарианские</p> 
+                    <button><a href="pancakes.html">Подробнее</a></button>
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://masterpiecer-images.s3.yandex.net/5fa40e2a4958729:upscaled" alt="Каша овсяная"> 
+                <div class="info"> 
+                    <h3>Каша овсяная</h3> 
+                    <p>Тип блюда: Завтрак</p> 
+                    <p>Время приготовления: 15 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Безглютеновые, Веганские</p> 
+                    <button><a href="porridge.html">Подробнее</a></button>
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/get-shedevrum/11511289/img_0f4959080b1211ef94f31279fe61504a/orig" alt="Каша рисовая на кокосовом молоке"> 
+                <div class="info"> 
+                    <h3>Каша рисовая на кокосовом молоке</h3> 
+                    <p>Тип блюда: Завтрак</p> 
+                    <p>Время приготовления: 25 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Азиатская</p> 
+                    <p>Специальные диеты: Веганские, Безглютеновые</p> 
+                    <button><a href="cocoporridge.html">Подробнее</a></button>
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://balthazar.club/uploads/posts/2022-03/1646117162_5-balthazar-club-p-kofe-i-vafli-6.jpg" alt="Венские вафли"> 
+                <div class="info"> 
+                    <h3>Венские вафли</h3> 
+                    <p>Тип блюда: Завтрак</p> 
+                    <p>Время приготовления: 30 минут</p> 
+                    <p>Сложность: Средне</p> 
+                    <p>Кухня: Австрийская</p> 
+                    <p>Специальные диеты: Не подходит для веганов (при использовании яиц и молока)</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://masterpiecer-images.s3.yandex.net/ba939c735ce911eea5e3badf81d486ab:upscaled" alt="Омлет с помидорами"> 
+                <div class="info"> 
+                    <h3>Омлет с помидорами</h3> 
+                    <p>Тип блюда: Завтрак</p> 
+                    <p>Время приготовления: 15 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Не подходит для веганов (при использовании яиц)</p> 
+                    <button>Подробнее</button> 
+                </div>
+            </div>
+            <!-- Повторите для остальных завтраков -->
+        </section>
+
+        <h2>Супы</h2><!-- Супы -->
+        <section class="category" id="soup">
+            
+            <div class="card">
+                <img src="https://www.baushka.ru/upload/iblock/af8/fbzjvq0qsd7fi3z5gc20wk9ssf6fml4b.jpg" alt="Солянка">
+                <div class="info">
+                    <h3>Солянка</h3>
+                    <p>Тип блюда: Обед</p>
+                    <p>Время приготовления: 1 час</p>
+                    <p>Сложность: Средне</p>
+                    <p>Кухня: Русская</p>
+                    <p>Специальные диеты: Не подходит для веганов</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="https://masterpiecer-images.s3.yandex.net/84a2005c89fe11eeac75f6c574779d3e:upscaled" alt="Борщ"> 
+                <div class="info"> 
+                    <h3>Борщ</h3> 
+                    <p>Тип блюда: Суп</p> 
+                    <p>Время приготовления: 1 час</p> 
+                    <p>Сложность: Средне</p> 
+                    <p>Кухня: Украинская</p> 
+                    <p>Специальные диеты: Вегетарианские (без мяса)</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/get-altay/9709178/2a0000018985f4075075200eaa234ee70491/XXL_height" alt="Том Ям"> 
+                <div class="info"> 
+                    <h3>Том Ям</h3> 
+                    <p>Тип блюда: Суп</p> 
+                    <p>Время приготовления: 30 минут</p> 
+                    <p>Сложность: Средне</p> 
+                    <p>Кухня: Тайская</p> 
+                    <p>Специальные диеты: Не подходит для веганов (при использовании морепродуктов)</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/i?id=a218865c8e6188dea20a990ddeb5091b_l-8485406-images-thumbs&n=13" alt="Тыквенный крем-суп"> 
+                <div class="info"> 
+                    <h3>Тыквенный крем-суп</h3> 
+                    <p>Тип блюда: Суп</p> 
+                    <p>Время приготовления: 40 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Европейская</p> 
+                    <p>Специальные диеты: Вегетарианские, Веганские</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/i?id=70e9ede3a9bfa2e6f23ecb19b2489349_l-4117550-images-thumbs&n=13" alt="Куриный бульон"> 
+                <div class="info"> 
+                    <h3>Куриный бульон</h3> 
+                    <p>Тип блюда: Бульон</p> 
+                    <p>Время приготовления: 1,5 часа</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Не подходит для веганов (при использовании курицы)</p> 
+                    <button>Подробнее</button> 
+                </div>
+            </div>
+            
+            <div class="card"> 
+                <img src="https://img-api.yumapos.ru/image/crop/1024x1024/f08e4d67-7cd8-6eff-cea9-42355e9c7204.jpg" alt="Окрошка"> 
+                <div class="info"> 
+                    <h3>Окрошка</h3> 
+                    <p>Тип блюда: Салат/Суп</p> 
+                    <p>Время приготовления: 30 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Вегетарианские (без мяса)</p> 
+                    <button>Подробнее</button> 
+                </div>
+            </div>
+            <!-- Повторите для остальных супов -->
+        </section>
+
+        <h2>Основные блюда</h2><!-- Основные блюда -->
+        <section class="category"  id="maindish">
+            
+            <div class="card"> 
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_656d5a60b7c55f2e685789b4_656d5e62937c8f04d5c7e1b5/scale_1200" alt="Паста Карбонара"> 
+                <div class="info"> 
+                    <h3>Паста Карбонара</h3> 
+                    <p>Тип блюда: Ужин</p> 
+                    <p>Время приготовления: 20 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Итальянская</p> 
+                    <p>Специальные диеты: Безглютеновые (с заменой пасты)</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/get-altay/10261179/2a0000018f5ce4c53e9c2601f793a6475b48/XXL_height" alt="Бефстроганов"> 
+                <div class="info"> 
+                    <h3>Бефстроганов</h3> 
+                    <p>Тип блюда: Ужин</p> 
+                    <p>Время приготовления: 40 минут</p> 
+                    <p>Сложность: Средне</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Без специальных диет</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/get-altay/4200646/2a00000176334a1356efae251314afd1c2b7/XXL_height" alt="Плов по узбекски"> 
+                <div class="info"> 
+                    <h3>Плов по узбекски</h3> 
+                    <p>Тип блюда: Ужин</p> 
+                    <p>Время приготовления: 1 час</p> 
+                    <p>Сложность: Средне</p> 
+                    <p>Кухня: Узбекская</p> 
+                    <p>Специальные диеты: Без специальных диет</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.mds.yandex.net/get-altay/9749133/2a00000188050a6c5c916f6c1cd216dc6ee8/XXL" alt="Гречка с грибами"> 
+                <div class="info"> 
+                    <h3>Гречка с грибами</h3> 
+                    <p>Тип блюда: Ужин</p> 
+                    <p>Время приготовления: 30 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Русская</p> 
+                    <p>Специальные диеты: Вегетарианские</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://i0.wp.com/img.cuisineaz.com/1024x1024/2015/11/16/i113125-pates-poulet-bechamel-et-champignons.webp?ssl=1" alt="Паста с курицей"> 
+                <div class="info"> 
+                    <h3>Паста с курицей</h3> 
+                    <p>Тип блюда: Ужин</p> 
+                    <p>Время приготовления: 30 минут</p> 
+                    <p>Сложность: Легко</p> 
+                    <p>Кухня: Итальянская</p> 
+                    <p>Специальные диеты: Безглютеновые (с заменой пасты)</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+            
+            <div class="card"> 
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65814873e44f1f39455323a7_658148b7e44f1f3945537a59/scale_1200" alt="Гуляш из свинины"> 
+                <div class="info"> 
+                    <h3>Гуляш из свинины</h3> 
+                    <p>Тип блюда: Ужин</p> 
+                    <p>Время приготовления: 1 час 15 минут</p> 
+                    <p>Сложность: Средне</p> 
+                    <p>Кухня: Венгерская</p> 
+                    <p>Специальные диеты: Без специальных диет</p> 
+                    <button>Подробнее</button> 
+                </div> 
+            </div>
+        </section>
+
+        <h2>Десерты</h2><!-- Десерты -->
+        <section class="category" id="desert">
+            
+            <div class="card">
+                <img src="https://icdn.lenta.ru/images/2024/06/28/12/20240628123130183/square_1024_409ae2ffc9a4ec8328265c8346978551.jpg" alt="Тирамису">
+                <div class="info">
+                    <h3>Тирамису</h3>
+                    <p>Тип блюда: Десерт</p>
+                    <p>Время приготовления: 30 минут (плюс время на охлаждение)</p>
+                    <p>Сложность: Средне</p>
+                    <p>Кухня: Итальянская</p>
+                    <p>Специальные диеты: Не подходит для веганов</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="card">  
+                <img src="https://www.retetepractice.ro/wp-content/uploads/2016/06/inghetata-de-capsune-1024x1024.jpg" alt="Клубничное мороженое">  
+                <div class="info">  
+                    <h3>Клубничное мороженое</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 4 часа (заморозка)</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Международная</p>  
+                    <p>Специальные диеты: Веганские (с заменой ингредиентов)</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://img-api.yumapos.ru/image/crop/1024x1024/7eb624fd-ae67-9bf0-b7b0-88022b70e931.jpg" alt="Торт Молочная девочка">  
+                <div class="info">  
+                    <h3>Торт Молочная девочка</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 1 час 30 минут</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Без специальных диет</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://masterpiecer-images.s3.yandex.net/a7d2e2e4765b11ee8ab32aa0df1cd6e5:upscaled" alt="Торт Сникерс">  
+                <div class="info">  
+                    <h3>Торт Сникерс</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 2 часа</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Американская</p>  
+                    <p>Специальные диеты: Без специальных диет</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://img5.lalafo.com/i/posters/original/5c/6f/5f/12ee50ce85aaed4ddfb0390fba.jpeg" alt="Песочное печенье">  
+                <div class="info">  
+                    <h3>Песочное печенье</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 40 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Международная</p>  
+                    <p>Специальные диеты: Без специальных диет</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://balthazar.club/uploads/posts/2023-02/1675784234_balthazar-club-p-pechene-shokoladnoe-na-margarine-pinterest-33.jpg" alt="Шоколадное печенье">  
+                <div class="info">  
+                    <h3>Шоколадное печенье</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 30 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Международная</p>  
+                    <p>Специальные диеты: Безглютеновые (с заменой муки)</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            <!-- Повторите для остальных десертов -->
+        </section>
+
+        <h2>Напитки</h2><!-- Напитки -->
+        <section class="category" id="drink">
+            
+            <div class="card">
+                <img src="https://avatars.mds.yandex.net/i?id=b405328aac7e39cbea7455e85a4a4e1521a1fc18-11492249-images-thumbs&n=13" alt="Домашний лимонад">
+                <div class="info">
+                    <h3>Домашний лимонад</h3>
+                    <p>Тип блюда: Напиток</p>
+                    <p>Время приготовления: 10 минут</p>
+                    <p>Сложность: Легко</p>
+                    <p>Кухня: Американская</p>
+                    <p>Специальные диеты: Веганские</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <!-- Повторите для остальных напитков -->
+            
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/i?id=095acd05cf5c9eaa64f7d95c382a46bf_l-7745047-images-thumbs&n=13" alt="Мохито">  
+                <div class="info">  
+                    <h3>Мохито</h3>  
+                    <p>Тип блюда: Напиток</p>  
+                    <p>Время приготовления: 10 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Кубинская</p>  
+                    <p>Специальные диеты: Без специальных диет</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://www.shevents.de/wp-content/uploads/2020/10/shutterstock_761553955-1024x1024.jpg" alt="Глинтвейн">  
+                <div class="info">  
+                    <h3>Глинтвейн</h3>  
+                    <p>Тип блюда: Напиток</p>  
+                    <p>Время приготовления: 30 минут</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Европейская</p>  
+                    <p>Специальные диеты: Без специальных диет</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://masterpiecer-images.s3.yandex.net/3c97cccd71aa11eeb415222e7fa838a6:upscaled" alt="Смузи банановое">  
+                <div class="info">  
+                    <h3>Смузи банановое</h3>  
+                    <p>Тип блюда: Напиток</p>  
+                    <p>Время приготовления: 5 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Международная</p>  
+                    <p>Специальные диеты: Веганские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/get-sprav-products/5236693/2a0000018b8b4559cbbea3c8ff8ed5609df9/XXL" alt="Облепиховый чай">  
+                <div class="info">  
+                    <h3>Облепиховый чай</h3>  
+                    <p>Тип блюда: Напиток</p>  
+                    <p>Время приготовления: 10 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Вегетарианские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://about-tea.ru/wp-content/uploads/8/7/9/879117d0117027cbfa74b985a0b45af5.jpeg" alt="Чай со смородиной">  
+                <div class="info">  
+                    <h3>Чай с имбирем</h3>  
+                    <p>Тип блюда: Напиток</p>  
+                    <p>Время приготовления: 5 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Вегетарианские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+        </section>
+
+        <h2>Диетические блюда</h2><!-- Диетические блюда -->
+        <section class="category" id="diet">
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/i?id=b1295f03950b27fa9283cc999b5b0de423c82ed6-5277625-images-thumbs&n=13" alt="Творожное суфле">  
+                <div class="info">  
+                    <h3>Творожное суфле</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 40 минут</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Безглютеновые</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/get-shedevrum/10713989/22a365f9b1b511ee86ac0a0d9f74bed2/orig" alt="Смузи из сельдерея">  
+                <div class="info">  
+                    <h3>Смузи из сельдерея</h3>  
+                    <p>Тип блюда: Напиток</p>  
+                    <p>Время приготовления: 10 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Международная</p>  
+                    <p>Специальные диеты: Веганские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/get-shedevrum/11511289/img_0f4959080b1211ef94f31279fe61504a/orig" alt="Каша на кокосовом молоке">  
+                <div class="info">  
+                    <h3>Каша на кокосовом молоке</h3>  
+                    <p>Тип блюда: Завтрак</p>  
+                    <p>Время приготовления: 25 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Азиатская</p>  
+                    <p>Специальные диеты: Веганские, Безглютеновые</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/i?id=0b06e6d5020b28b2eee1b2eca5a85e4da28a5b27-5858870-images-thumbs&n=13" alt="Овощные оладья">  
+                <div class="info">  
+                    <h3>Овощные оладья</h3>  
+                    <p>Тип блюда: Закуска</p>  
+                    <p>Время приготовления: 30 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Вегетарианские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/get-altay/4797538/2a0000017951ae78391f514ffa96159f635a/XXL" alt="Яблочная пастила">  
+                <div class="info">  
+                    <h3>Яблочная пастила</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 60 минут (сушка)</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Веганские, Безглютеновые</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <div class="card">  
+                <img src="https://sun9-59.userapi.com/impg/3zwK2XIgNiZ4N8iOu59E6qBFJE1s6bwOTG-hHg/Cgmjz91_s2w.jpg?size=1024x1024&quality=96&sign=e723785569368945b0b57d1feb5a3b91&c_uniq_tag=fnUnmuXa9gzqjmBik2LBFOd0T0UcwikA654yB9co2u4&type=album" alt="Запеченные кабачки">  
+                <div class="info">  
+                    <h3>Запеченные кабачки</h3>  
+                    <p>Тип блюда: Основное блюдо</p>  
+                    <p>Время приготовления: 40 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Итальянская</p>  
+                    <p>Специальные диеты: Вегетарианские, Веганские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+        </section>
+
+        <h2>Для детей</h2><!-- Для детей -->
+        <section class="category" id="children">
+            
+            <div class="card">
+                <img src="https://avatars.mds.yandex.net/i?id=70e9ede3a9bfa2e6f23ecb19b2489349_l-4117550-images-thumbs&n=13" alt="Куриный бульон">
+                <div class="info">
+                    <h3>Куриный бульон</h3>
+                    <p>Тип блюда: Ужин</p>
+                    <p>Время приготовления: 1 час</p>
+                    <p>Сложность: Легко</p>
+                    <p>Кухня: Русская</p>
+                    <p>Специальные диеты: Не подходит для веганов</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/i?id=f16620996cca42aefe50d8e30157955d26f02e58-5291569-images-thumbs&n=13" alt="Пюре из яблок">  
+                <div class="info">  
+                    <h3>Пюре из яблок</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 20 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Вегетарианские, Безглютеновые</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            <div class="card">  
+                <img src="https://balthazar.club/uploads/posts/2023-02/1675908261_balthazar-club-p-pechene-bananovoe-bez-yaits-i-moloka-pinte-34.jpg" alt="Банановое печенье">  
+                <div class="info">  
+                    <h3>Банановое печенье</h3>  
+                    <p>Тип блюда: Десерт</p>  
+                    <p>Время приготовления: 25 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Американская</p>  
+                    <p>Специальные диеты: Вегетарианские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            <div class="card">  
+                <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1920x1024:format=jpg/path/scee54e3036955d66/image/idb6366d88fe96540/version/1511520102/image.jpg" alt="Макароны с сыром">  
+                <div class="info">  
+                    <h3>Макароны с сыром</h3>  
+                    <p>Тип блюда: Основное блюдо</p>  
+                    <p>Время приготовления: 30 минут</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Итальянская</p>  
+                    <p>Специальные диеты: Вегетарианские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            <div class="card">  
+                <img src="https://masterpiecer-images.s3.yandex.net/5f9ac7e80381c59:upscaled" alt="Пюре с котлетой">  
+                <div class="info">  
+                    <h3>Пюре с котлетой</h3>  
+                    <p>Тип блюда: Основное блюдо</p>  
+                    <p>Время приготовления: 40 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Русская</p>  
+                    <p>Специальные диеты: Не рекомендуется для вегетарианцев</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/i?id=2ccd9bcb14f3f70f97451ba7471948ca_l-9181986-images-thumbs&n=13 alt="Овощной салатик">  
+                <div class="info">  
+                    <h3>Овощной салатик</h3>  
+                    <p>Тип блюда: Закуска</p>  
+                    <p>Время приготовления: 15 минут</p>  
+                    <p>Сложность: Легко</p>  
+                    <p>Кухня: Разная</p>  
+                    <p>Специальные диеты: Вегетарианские, Веганские</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            
+            <!-- Повторите для остальных детских блюд -->
+        </section>
+
+        <h2>Традиционные блюда</h2><!-- Традиционные блюда -->
+        <section class="category" id="dishes">
+            
+            <div class="card">
+                <img src="https://avatars.mds.yandex.net/i?id=25cff875afc3520da93d1d9ff15e79e8_l-5869156-images-thumbs&n=13" alt="Испанская паэлья">
+                <div class="info">
+                    <h3>Испанская паэлья</h3>
+                    <p>Тип блюда: Ужин</p>
+                    <p>Время приготовления: 1 ч.</p>
+                    <p>Сложность: Средне</p>
+                    <p>Кухня: Испанская</p>
+                    <p>Специальные диеты: Не подходит для веганов</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/get-altay/467660/2a00000187c7b15044b50aa703788aa24a0e/XXL" alt="Китайские баоцзы">  
+                <div class="info">  
+                    <h3>Китайские баоцзы</h3>  
+                    <p>Тип блюда: Закуска / Основное блюдо</p>  
+                    <p>Время приготовления: 45 минут</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Китайская</p>  
+                    <p>Специальные диеты: Можно сделать вегетарианскими</p>  
+                    <button>Подробнее</button>  
+                </div>  
+            </div>
+            <div class="card">  
+                <img src="https://кафе-алые-паруса.рф/userfls/shop/large/39_krasnyy-borsch-s-kuritsey.jpg" alt="Украинский борщ">  
+                <div class="info">  
+                    <h3>Украинский борщ</h3>  
+                    <p>Тип блюда: Суп</p>  
+                    <p>Время приготовления: 90 минут</p>  
+                    <p>Сложность: Средне</p>  
+                    <p>Кухня: Украинская</p>  
+                    <p>Специальные диеты: Можно сделать вегетарианским</p>  
+                    <button>Подробнее</button>  
+                </div>
+            </div>
+            <div class="card">  
+                <img src="https://avatars.mds.yandex.net/i?id=25a13cba94d74bfb2d1ca080b6359fa7_l-4576017-images-thumbs&n=13" alt="Маринованные огурцы">  
+                <div class="info">  
+                    <h3>Маринованные огурцы</h3>
+                    <p>Тип блюда: Закуска</p>
+                    <p>Время приготовления: 10 минут (плюс время на маринование)</p>
+                    <p>Сложность: Легко</p>
+                    <p>Кухня: Русская / Восточноевропейская</p>
+                    <p>Специальные диеты: Вегетарианские, Веганские</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="card">  
+                <img src="https://icdn.lenta.ru/images/2023/09/19/15/20230919154949225/square_1024_c2f86c4eca1f457a74c2c67bc7358f91.jpg" alt="Узбекский плов">  
+                <div class="info">  
+                    <h3>Узбекский плов</h3>
+                    <p>Тип блюда: Основное блюдо</p>
+                    <p>Время приготовления: 90 минут</p>
+                    <p>Сложность: Средне</p>
+                    <p>Кухня: Узбекская</p>
+                    <p>Специальные диеты: Не рекомендуется для вегетарианцев (с мясом)</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            <div class="card">  
+                <img src="https://kartinki.pics/uploads/posts/2021-07/1627521893_43-kartinkin-com-p-tarelka-dlya-sushi-yeda-krasivo-foto-50.jpg" alt="Японские суши">  
+                <div class="info">  
+                    <h3>Японские суши</h3>
+                    <p>Тип блюда: Закуска / Основное блюдо</p>
+                    <p>Время приготовления: 60 минут (плюс время на подготовку риса)</p>
+                    <p>Сложность: Средне</p>
+                    <p>Кухня: Японская</p>
+                    <p>Специальные диеты: Можно сделать вегетарианскими (вегетарианские суши)</p>
+                    <button>Подробнее</button>
+                </div>
+            </div>
+            
+            <!-- Повторите для остальных традиционных блюд -->
+        </section>
+
+    </div>
+
+    <!-- Подключение JavaScript (если нужно) -->
+    <!--
+    <script src="script.js"></script>
+    -->
+    
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Рецептов</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h2{
+            font-size: 35px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .video-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        iframe {
+            width: 640px;
+            height: 360px; /* Высота видео */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="profile-header">
+        <div class="header-content">
+        <h1>Flavor Alchemy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="receipt.html">Рецепты</a></li>
+                <li><a href="health.html">Здоровое питание</a></li>
+                <li><a href="tips.html">Статьи и советы</a></li>
+                <li><a href="video.html">Видеоуроки</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <br><br>
+    <div class="video-gallery">
+        
+        <h2>Шеф-повара делятся своими навыками</h2>
+
+        <div class="video-container">
+            <iframe src="https://vk.com/video_ext.php?oid=-228255122&id=456239034&hash=6da679b9d6d46058" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://vk.com/video_ext.php?oid=-212048701&id=456240224&hash=2bb2eca62344fd53" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>        </div>
+        <div class="video-container">
+            <iframe src="https://vk.com/video_ext.php?oid=-12644506&id=456239529&hash=5ff26a462ca90445" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>        </div>
+        <div class="video-container">
+
+            <iframe
+            width="720"
+            height="405"
+            src="https://rutube.ru/play/embed/b0cb2f0e62bc714350ce31c6f2be294a"
+            frameBorder="0"
+            allow="clipboard-write; autoplay"
+            webkitAllowFullScreen
+            mozallowfullscreen
+            allowFullScreen
+          ></iframe>
+                </div>
+            <h2>Интервью с известными шеф-поварами</h2>
+        <div class="video-container">
+            <iframe src="https://vk.com/video_ext.php?oid=-211652601&id=456239242&hash=349329dd147c19ef" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>        </div>
+        <div class="video-container">
+            <iframe src="https://vk.com/video_ext.php?oid=-224165374&id=456239244&hash=6794fcd219551fd2" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>        </div>
+    </div>
+    
+</body>
+</html>
