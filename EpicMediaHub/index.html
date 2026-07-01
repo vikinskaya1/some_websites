@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Media Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body data-page="home">
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="typewriter" id="hero-title">Добро пожаловать в Hub</h2>
+                <p>Лучшие новинки кино, игр и музыки в одном месте.</p>
+                <a href="#popular" class="btn-main">Смотреть популярное</a>
+            </div>
+        </section>
+
+        <section class="categories-grid">
+            <div class="cat-item" onclick="location.href='moviep.html'">
+                <h3>Кино</h3>
+                <p>1200+ фильмов</p>
+            </div>
+            <div class="cat-item" onclick="location.href='gamep.html'">
+                <h3>Игры</h3>
+                <p>500+ тайтлов</p>
+            </div>
+            <div class="cat-item" onclick="location.href='music.html'">
+                <h3>Музыка</h3>
+                <p>300+ альбомов</p>
+            </div>
+        </section>
+
+        <section id="popular" class="popular">
+            <h2 class="section-title">Популярное сейчас</h2>
+            <div id="cardContainer" class="card-container">
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="news-banner">
+                <h3>Обновление базы</h3>
+                <p>Сегодня мы добавили 5 новых сериалов и свежий альбом Linkin Park.</p>
+                <span class="date">29.03.2026</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

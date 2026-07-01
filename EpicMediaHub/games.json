@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Elden Ring",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+        "description": "Эпическая RPG с открытым миром, сложными боями и исследованием огромного мира.",
+        "link": "https://store.steampowered.com/app/1245620/Elden_Ring/"
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "img": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+        "description": "Футуристическая RPG с глубоким сюжетом и уникальной системой выбора.",
+        "link": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/"
+    },
+    {
+        "title": "Hogwarts Legacy",
+        "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/Hogwarts_legacyboxart.png",
+        "description": "Приключенческая RPG во вселенной Гарри Поттера, где вы создаёте собственного студента.",
+        "link": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/"
+    },
+    {
+        "title": "God of War Ragnarok",
+        "img": "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg",
+        "description": "Продолжение эпической саги о Крате. Динамичный бой и захватывающая история.",
+        "link": "https://store.steampowered.com/app/1593500/God_of_War_Ragnarok/"
+    },
+    {
+        "title": "Resident Evil 4 Remake",
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg",
+        "description": "Ремейк классического хоррора с обновленной графикой и геймплеем.",
+        "link": "https://store.steampowered.com/app/2050650/Resident_Evil_4_Remake/"
+    },
+    {
+        "title": "Horizon Forbidden West",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/69/Horizon_Forbidden_West_cover_art.jpg",
+        "description": "Приключенческая RPG с открытым миром и невероятной графикой.",
+        "link": "https://store.steampowered.com/app/1151640/Horizon_Forbidden_West/"
+    },
+    {
+        "title": "Starfield",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/6d/Bethesda_Starfield.jpg",
+        "description": "Космическая RPG от Bethesda с масштабной вселенной и исследованием планет.",
+        "link": "https://store.steampowered.com/app/1716740/Starfield/"
+    },
+    {
+        "title": "Tekken 8",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tekken_8_cover_art.jpg",
+        "description": "Новая глава классической серии файтингов с огромным выбором персонажей.",
+        "link": "https://store.steampowered.com/app/1916710/Tekken_8/"
+    },
+    {
+        "title": "Assassin's Creed Mirage",
+        "img": "https://upload.wikimedia.org/wikipedia/en/2/23/Assassin%27s_Creed_Mirage_cover.jpeg",
+        "description": "Возвращение к истокам серии с историей в Багдаде и скрытным геймплеем.",
+        "link": "https://store.steampowered.com/app/2019720/Assassins_Creed_Mirage/"
+    },
+    {
+        "title": "Baldur's Gate 3",
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/12/Baldur%27s_Gate_3_cover_art.jpg",
+        "description": "Тактическая RPG с глубоким сюжетом, основанная на D&D правилах.",
+        "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+    },
+    {
+        "title": "Final Fantasy XVI",
+        "img": "https://upload.wikimedia.org/wikipedia/en/0/00/Final_Fantasy_XVI_cover_art.png",
+        "description": "Новая часть легендарной серии с эпическим сюжетом и динамичными боями.",
+        "link": "https://store.steampowered.com/app/1026030/Final_Fantasy_XVI/"
+    },
+    {
+        "title": "Call of Duty: Modern Warfare II",
+        "img": "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
+        "description": "Современный шутер с динамичным мультиплеером и захватывающей кампанией.",
+        "link": "https://store.steampowered.com/app/1938090/Call_of_Duty_Modern_Warfare_II/"
+    },
+    {
+        "title": "Street Fighter 6",
+        "img": "https://upload.wikimedia.org/wikipedia/en/9/94/Street_Fighter_6_box_art.jpg",
+        "description": "Новая часть классической серии файтингов с разнообразием персонажей и режимов.",
+        "link": "https://store.steampowered.com/app/1722450/Street_Fighter_6/"
+    },
+    {
+        "title": "Diablo IV",
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/1c/Diablo_IV_cover_art.png",
+        "description": "Темная RPG с кооперативным режимом и эпической историей о борьбе с силами ада.",
+        "link": "https://store.steampowered.com/app/1139280/Diablo_IV/"
+    },
+    {
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg",
+        "description": "Продолжение легендарной серии с масштабным открытым миром и новыми механиками.",
+        "link": "https://www.nintendo.com/games/detail/the-legend-of-zelda-tears-of-the-kingdom-switch/"
+    }
+]

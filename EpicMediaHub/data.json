@@ -1,0 +1,162 @@
+[
+    {
+        "title": "1+1",
+        "category": "movie",
+        "year": 2011,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/b/b9/Intouchables.jpg",
+        "desc": "История о дружбе",
+        "link": "details.html?title=1+1"
+    },
+    {
+        "title": "Интерстеллар",
+        "category": "movie",
+        "year": 2014,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c3/Interstellar_2014.jpg/330px-Interstellar_2014.jpg",
+        "desc": "Космос и время",
+        "link": "details.html?title=Интерстеллар"
+    },
+    {
+        "title": "Бойцовский клуб",
+        "category": "movie",
+        "year": 1999,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/8/8a/Fight_club.jpg/330px-Fight_club.jpg",
+        "desc": "Культовая драма",
+        "link": "details.html?title=Бойцовский клуб"
+    },
+    {
+        "title": "Терминатор 2: Судный день",
+        "category": "movie",
+        "year": 1991,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/f2/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2_-_%D0%A1%D1%83%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C.webp/330px-%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2_-_%D0%A1%D1%83%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C.webp.png",
+        "desc": "Легендарный боевик",
+        "link": "details.html?title=Терминатор 2: Судный день"
+    },
+    {
+        "title": "Зеленая книга",
+        "category": "movie",
+        "year": 2018,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/f0/Green_Book.jpg/330px-Green_Book.jpg",
+        "desc": "Дружба и путешествие",
+        "link": "details.html?title=Зеленая книга"
+    },
+    {
+        "title": "Темный рыцарь",
+        "category": "movie",
+        "year": 2008,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/f4/%D0%A2%D1%91%D0%BC%D0%BD%D1%8B%D0%B9_%D1%80%D1%8B%D1%86%D0%B0%D1%80%D1%8C_%282008%29_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg/330px-%D0%A2%D1%91%D0%BC%D0%BD%D1%8B%D0%B9_%D1%80%D1%8B%D1%86%D0%B0%D1%80%D1%8C_%282008%29_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg",
+        "desc": "Бэтмен против Джокера",
+        "link": "details.html?title=Темный рыцарь"
+    },
+    {
+        "title": "Волк с Уолл-стрит",
+        "category": "movie",
+        "year": 2013,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/7/72/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg/330px-%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg",
+        "desc": "История успеха и падения",
+        "link": "details.html?title=Волк с Уолл-стрит"
+    },
+    {
+        "title": "Назад в будущее",
+        "category": "movie",
+        "year": 1985,
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
+        "desc": "Путешествие во времени",
+        "link": "details.html?title=Назад в будущее"
+    },
+    {
+        "title": "Шрек",
+        "category": "movie",
+        "year": 2001,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/39/Shrek.jpg/500px-Shrek.jpg",
+        "desc": "Зеленый герой",
+        "link": "details.html?title=Шрек"
+    },
+    {
+        "title": "Гарри Поттер и философский камень",
+        "category": "movie",
+        "year": 2001,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/b/b4/Harry_Potter_and_the_Philosopher%27s_Stone_%E2%80%94_movie.jpg/500px-Harry_Potter_and_the_Philosopher%27s_Stone_%E2%80%94_movie.jpg",
+        "desc": "Магическое начало",
+        "link": "details.html?title=Гарри Поттер и философский камень"
+    },
+    {
+        "title": "Друзья",
+        "category": "series",
+        "year": "1994-2004",
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/6f/Friends_The_Reunion_poster.jpg/960px-Friends_The_Reunion_poster.jpg?_=20210529110719",
+        "desc": "Легендарный ситком",
+        "link": "details.html?title=Друзья"
+    },
+    {
+        "title": "Игра престолов",
+        "category": "series",
+        "year": "2011-2019",
+        "img": "https://upload.wikimedia.org/wikipedia/ru/4/49/Game_of_Thrones.jpg",
+        "desc": "Эпическая фантазия",
+        "link": "details.html?title=Игра престолов"
+    },
+    {
+        "title": "Гравити Фолз",
+        "category": "series",
+        "year": "2012-2016",
+        "img": "https://kinopoisk-ru.clstorage.net/FP1K46222/1efa27VY/NH8n_aOHLHwb6puVmkj14lcW2qEuNWoFz5tphXr-ukYnPCJjInxUGBp6bVzAGfn-_OGFwphC_tbxBU1KmMoUvNC7Aomm8t1di3--dH6NpWJXcmsB62F7wUqvKFRP-1-01D6hQbVeN-qYeKtIpD0Yi0lU4cad9_qzAMF5jb47cq52DRe8YjbN-Akq-8BpOXZTVkcfUxynDFftC0wHuw6p5XW-A0CG_bb7i4i6u3cMTFvL1wAVfZYa4xRAS94vndKsdTyFHfF2bFg4OCuQaNoWINbF7eEvBa7m3qmu1wg-KlfHvIBS9d-U-okbmtm3bp5663YhRu_FS-ElEthOf6-hXHVstPyxdwxry-gJgHrY9oNX9i4z32aMZY0I7waK7MhVZL8z8oReNGiKGkso517cK1m1ARSfldvjNXL6fi8eIUykvHUNk-cNiDkqSoPJ-ZQDdGYuMa83DocNmE51OT8JJjTf8iHmncbZKBs5GRWdLEjqxzN1Pxb58PQRyhztLlPNx_yVrjDXj7uLykgQ2YnV4qXF78LsJF_1HzsOReqe6KVGnnJTxC4EK2srupnk3B5aiGbDRe6Ue8L1MKmf3X-wvIacdq5hRDzKaqj4kvjrd0MkNj9jbVb9ZN2oXDdpXgoEBkwTwfX-Bauoeoi7lFxc-MlFoFT_JQqzh4ILfn2PIP6Vbqe8UzUfOOpYefOpumcRtWUsEkyFrKae-y0HmoyphicMkwGmzne4aSqZeqZPbwipRWEkznTLsWSzOr4N_-PttxzmTCFWvbgoC0mDKsikUKWnDBJe9B-lDbpMF4isaERU3lBhtiwVywto6ctlf0yK2kcTVX_W-XNXcCjO_OzhDDcshtyQNk_oOmlZMnhb9DI19EyxnDQ9tz6qHfbKLwhnhP4zk0a990sqyCvJFQwuSsikoGQcR-rghjHazJ9fsTyV7ycP8hZfWYnJiTM6-pYwRhcc8N50b4QfC2-HW_zrteaOgYPWLEQayIupeqVvL2mq1JBmDRYow6ZwOv59fyHPlCy0bEIUzGloKUjTKQp2QtdXbrGuly2nzoutB-qeCpZ3_pGg9O-k-Lsay8pFD_4b2uSQNh-kK0PHMov8D11hnra_RU4SF63Y6CiqEwioRTJnpyyzLid8hOybX_UpTupUtF5jgqTv5qiY-ksqVi8-WdnmUadfRUvT9jD6zC1OYyy3_Pf90tY_Cpu72NPI-2RQlFXc8O8EbAY924xFuF5Ll-fu4nKULUfKuIs5-bec3fm5FOOnjYep8MZxCe59XaMtRS13LtM27_vrqOshO5j0IVf2z8DPJB7VPPlsVWrNyAfG_jITxg3WOjjJGThHvC76awaht33126GUcShMPV4xXObvR56CB27LaFprgRmb9yI1pEwAjpSs1B7IXnWrfvh354xyE3XcZiorCAgrRCzNGalEE6Q9dxswJ2DJ_r9twX2XXUZ94pbMaDsL-QBKi3Sg9sesw3wknId_epxEagz6pjTOwEF0vqXZCYpIOpZfPCm61wMGz1VLc-Swe84O3lLupP6VH_IVrao7CFhRaUj2ANZG_xF_Vv61z7gP9UrcSIRlvcJixP2Uq2ooiekXLKwLqlYzxWym65FW0kpdb_1iv9a8F2_x5K2JiAgZ4Hvr15D2R86CziS8xx0rLbbqH8g1Be0TYJQ-B-raewtJ9b8OKqqHUcQ9dvuzR4HLre-dgrxXb2VOMgTOeeuKeYMZW-fTVBUcETy2nIY_GM-HiX941rWPwFLnn-RqKRpr-pdcPps4tIEG3ob4EYSw--5fXlE-5u_Fb8FU3HtomHuCC0mUotREbdK9VLwXL9if1LnuGoeFTNNxJg2kWOopS5r13E3quLcTVsyFWSNm4hnvbw9jzGXsJE1glm-6iDnYMWiaJzGXhQ4AjsdP5_zIP6VKnsuVFO2R4SWshYqbW2gpF94Mu6sUknXNZmlDJJNaDczcIV2mPSZt0BeeebpY68P4epdDBmRdEb4EvmX8iK4XWrz494Tvw0MV__fIiqqLyacc3zm45SKn_fV5o_UTKex__vAv1h0nXML3jciamphj60l3IrWmfHNeVN63Txut9Mssu9WkvAMhBh7Uaur6yplGLM97GIRSdP40CPHE4GgtT3-jnLXvFZxC9yxJyinKMUqYRTLU1Y7CrWS-Z_9qjxU5LTo1ZK8zIaScZimqGAkbxg1POxk1oLSNRnlS50Epnx-OQw3Uj9WuwjZtGitoaoHaqnaRZCYOsozFfgUt2Uwl6g_Lt6RuATPmzVXbmNl7ipW9Xis5FFNU38f58MZAqj79XGDc5HxWrMO0bMqL-5niGxoUkzekHlJf5j11P1mPhyscG9VFHDHABPzkCCjbeMpU7IzZabUSZ1-nSyI1I0rtfa5wPOUctbzSNz4aOkrocWiZd2FEZR_RjtYeFfxqX5VY3fvWZN0yIhc-JdqpeHs7Ng7sSGhUgkXsZDoTlXPb7H5sA46lfDVtw3eP6pkr2iBo27YhVfW8EY4Xb1ecqS83qR8JhFacIvGknvYqeGqoilbeDosbFrAUD1V5YKbC2XwvLvNsNF0WfkP2TYv4KqgBWTgGEDdlvqOclzxW3QlsBvrdS7eXTuBwxvx0mSt6-Ll17X17mfaTBe9F6gF0cwu-7yxgDbXvRa-jxRzaO-rp8ztoVcBHVx6C7EbfpN3q33d7HnkVt9zho_S-9utKqPt6Ra18WXj0Qjc9N0vhNSB6vW6OA262jnVcoWVtytp4ebI7-Cci5QQvcf9XvCf9mI0XWc0phZWNMwEXj6aYiKoYqRTu3QnrBpBkzoe7IQZgKLz_btK8Fc_nrWCmnioYejogWsm38CcHb-Hcdb51D9q8xXisuEfVL6IhNw2luPl5GIimTOz7WIZh9O-nq0ElgOgv7z7xDiY8pE1zBD5IaygoU1r4BSF3d24xvFW8BV_43wTZLHr15e7j8QYudvhqarma5Z6NyciHEQWtVwtA5YIaY",
+        "desc": "Мистика и приключения",
+        "link": "details.html?title=Гравити Фолз"
+    },
+    {
+        "title": "Рик и Морти",
+        "category": "series",
+        "year": "2013-...",
+        "img": "https://kinopoisk-ru.clstorage.net/FP1K46222/1efa27VY/NH8n_aOHLHwb6puVmkj14lcW2qEuNWoFz5tphXr-ukYnPCJjInxUGBp6bVzASelubNEUU2gi_vbxNQ2ryRpkybFakqzTw2mdfm_fha5Y8BeCVwsES-FOkMs_SFDL68-yJD9BQYSPNjsomEs7ND0dHxl0kddsB5sShJS5_x48ha_G3CS8sxetiEvIyoAaygSRRgZeANy27dcdmOw0mB86RHWeweOFvJW6OYu7KsfuLEvJ9hI2v-f68tSAOM1NrSMPxN8VLhKE7Snr-dhQSsvn8TWG3PJuhU91rKtO1kisCsfHLMNgl8-3mDiJKAqlLk6Z6NazF-x1qaPWsWpe3f0RfDTfRR_zxOxJ2AoIclrZ5RGWB-8xvHUsVy_475eZLtglxY_A0ze-NjiqiinbVH5-27lkcDe-Bfkz1KEKfO2toPwkDpXeAuZ8SDv4yjFZasRzFiR_Mb4FfdXNeH826p0L5LbfoBLk3PXKGygoqWWMvSva1wIF36V6EcdgaUyPb5COpW3VPqFFTMoISiozynq0Mvf13PBNRm6Ev2rcdtpOqgU1reGSlv5GCOlrGCrlffwZyLWj9e90-JP1YUgvDF_BbdQstd2hFN95eatIg0hb1pBWdC8g7MccJi6oTySozWrnlO0z8wTPlglpqEkYxw18W2r0gJb-ZUnihBP6je3_Mf2WP0cMsyauWosruAIpCoeABOV8M53mz3fs6xxVmD64RBbMc3PEnKZ7emkZCQY_b2ialIBXjlQYI4bwy7wtj0E-hR01TUNUzfgL6esyWYn1Q0X1vhOd9L7E73hdNIgsmIXUv6GwpIxEGQkLW3m3_F9LGOeCJf_luhFEwwiuXX5SPGSdBS3T5a0KW_uJIujbZhMnZe1TPjZ-5v1LTWVpbhvl92-B01Z81fuJKvu7tYwsKdj1YZbOhisC1xJJXF8d4WxUP8aMAIeNGupIKfLpmcdxJRYOA390PrTOauwXGP_IBiUN8WFG7ERI2Mi4OQY8Tyj7lxGmzJd6wPQyCLxt_8H8pz4FH2M3j4naqckzCYo3kVeHTnE-BN327bts1ZhOqucGnIFxZc6HqDq7KVu23C_5iechppyFyMN0U0oNb43jvPYclu5BZ4zoaynI0cmrlaInN74zPIRtp86ZfCdqjXoHxF8hg0eeh-pqmMnbVs8POcvkI2cNxSmj5GJIfF-v8L5EHdVc8qdNerlaW6MJa8aDRcRMw39FTrdMSDz02hxqpgcMkQK3rkVLCLi4qYUuvNprhNHVDRfrQcdSCY99_-N-Re8E3CGmrapIKkiQ-5ilEzQH79BPZW7Fn0keFMrO-SWXLYHS1vxl2vg4-olE3pwpaFbDlx3nmTOWAAmu37_g7DRMxuyR95wreKm6EFu6phA3Zb1TjyTed55rLybqD0oV5wzzktZPtGroKzuYV90MyouUgSUOpxvzB7MYT2090xwVPXTtcpcNidv664La6baTtabes0zWbkfNCp3k2844FzbfsSCETtapGwm52EYPfzu7hxI1rFU5o0RwyP1djGCPhg7XPhCHjugZ-ugji8p1ERWGX-Ce1Rwl_7pfd2ru6KUUjsIip_6VmGlqGxmVjgyrmZeTBW_2ygOmwqrMzu1Dv9d8lbxghH_oOknoYjrY1jCFpl7RDWRuZ41ozFUpTislpe6S86WuVgso2kibNWyfCbiXQmdupxoThNP5TT5tI1_U_UbOQUefi8oqagJZumYAxgQMA56W_EfMSv-3GC1LlUZe8CCX3ffoqCkp-4YOfDkJBXG3rETqECYQyH193eCMVkzGbmC0z5nIqXgAWKh0c7eEXXJdFx5nXVo_50sd2vcXbjMztBxlqJrqGtvmbPxKeIVyJfxW6bEU8pqffO2xvqTPxY9CFQ0qCUnZo-vLp8Akx5wRjySNlK2JL0c67qomBf-ScSQfxIlIm2j4VY7-CymW0aTfVwqBdLDr3J5OYvw1DBSNYqWM28p7uJAZW0dwVlZ9Qp4UTmUviW_WiP6IFWdvkCOGL5f7CoqZG7U-PNirhSAUDWeZkZRha69__UAtR3w0jFO3bMh7W3rjuUh0kDflv2P89B4F_Tr81WtvGFZFT8Pj5Dx22KjqyVrl3wzI6SVBZN5kWODGUJjuvs3BfvQfxr6TN2xp-gvJsevppaInhMyRTQcuZS2KjfeKnRnXpY_Q0-Se9GrrqiuZZ18tSKkk8JYeFyqRZXM5rwydMJ5lfqZ-obetKKnqiBFbeZeRhDQ_ET0mj6VPWD40uk47JidPEeH23KVZGZjq6_YMnVm5BNFl_kWrEcdSOCytf-K9tE5V_aO2Lyl5ShviOLgn84ZnvQHd9azmP0q-9xiPKPZFrmPRBT6U6Moo6Oi2zcyLS1RwJM3Fy6MVoVvMfv8QrVRPNR6zp6x7qfuqk6vLpJB0FHwAXiScxV-JjScK_OkWRo-i0uctVikYqUvrR68u69pVkbTvdgjSJAELXX_80t7mD1WeYrbsyllYy6H6y-ZRNAXso54kXbQd6U5XqA0r5BS948I0nvb66HhZOPbP_gkZJtOGvpU5kVcyul_vrZAuBJ50vXE2bQg4OcrT2_oF4QVnfKEsNt3nHKjuFJle6aYnfDEAtfyUeFsrSWjF7M166aQzpa91KQI24AuNLW2SvWUfxu6g1l5ZafoKkimYVbLVF04BDUYMBO6oDafo3yqUhVyjAWbO1vopSptrBtyNe8tFMXSdp1uj1qFY_C7sMN4GHKfeU9T-KHkbmAJomMXAN7UdMP5VHWdtiH_1iP35xBV-8tPELeeqWoiZiNWNztqb1sOmzlTrUxaSGK4vfdAP1L_mTKIVPduZ2ZpB-vn0UOV3HnBudj9lP3o9xFrcmFXXPlBC5A1lqXr5Soj0P2zraWVDV151y0N2sfhuvG2ALGaMFQ9CBp97-6rIU4n5xeI0J25xvhYfZ08qH6ebfRiXZQ6RAzQ8Rno6alkp5ny-ilv1QievNzvjd3H6k",
+        "desc": "Смешные научные приключения",
+        "link": "details.html?title=Рик и Морти"
+    },
+    {
+        "title": "Во все тяжкие",
+        "category": "series",
+        "year": "2008-2013",
+        "img": "https://kinopoisk-ru.clstorage.net/FP1K46222/1efa27VY/NH8n_aOHLHwb6puVmkj14lcW2qEuNWoFz5tphXr-ukYnPCJjInxUGBp6bVzA2WlujEGFx_0iXtbxNTi6mP9UrIC7B8l28t1ozl-OcUu9gJcydzvRm1ELYUqvKFRP-1-01D6hQbVeN-qYeKtIpD0Yi0lU4cad9_qzAMF5jb47cq52DRe8YjbN-Akq-8BpOXZTVkcfUxynDFftC0wHuw6p5XW-A0CG_bb7i4i6u3cMTFvL1wAVfZYa4xRAS94vndKsdTyFHfF2bFg4OCuQaNoWINbF7eEvBa7m3qmu1wg-KlfHvIBS9d-U-okbmtm3bp5663YhRu_FS-ElEthOf6-hXHVstPyxdwxry-gJgHrY9oNX9i4z32aMZY0I7waK7MhVZL8z8oReNGiKGkso517cK1m1ARSfldvjNXL6fi8eIUykvHUNk-cNiDkqSoPJ-ZQDdGYuMa83DocNmE51OT8JJjTf8iHmncbZKBs5GRWdLEjqxzN1Pxb58PQRyhztLlPNx_yVrjDXj7uLykgQ2YnV4qXF78LsJF_1HzsOReqe6KVGnnJTxC4EK2srupnk3B5aiGbDRe6Ue8L1MKmf3X-wvIacdq5hRDzKaqj4kvjrd0MkNj9jbVb9ZN2oXDdpXgoEBkwTwfX-Bauoeoi7lFxc-MlFoFT_JQqzh4ILfn2PIP6Vbqe8UzUfOOpYefOpumcRtWUsEkyFrKae-y0HmoyphicMkwGmzne4aSqZeqZPbwipRWEkznTLsWSzOr4N_-PttxzmTCFWvbgoC0mDKsikUKWnDBJe9B-lDbpMF4isaERU3lBhtiwVywto6ctlf0yK2kcTVX_W-XNXcCjO_OzhDDcshtyQNk_oOmlZMnhb9DI19EyxnDQ9tz6qHfbKLwhnhP4zk0a990sqyCvJFQwuSsikoGQcR-rghjHazJ9fsTyV7ycP8hZfWYnJiTM6-pYwRhcc8N50b4QfC2-HW_zrteaOgYPWLEQayIupeqVvL2mq1JBmDRYow6ZwOv59fyHPlCy0bEIUzGloKUjTKQp2QtdXbrGuly2nzoutB-qeCpZ3_pGg9O-k-Lsay8pFD_4b2uSQNh-kK0PHMov8D11hnra_RU4SF63Y6CiqEwioRTJnpyyzLid8hOybX_UpTupUtF5jgqTv5qiY-ksqVi8-WdnmUadfRUvT9jD6zC1OYyy3_Pf90tY_Cpu72NPI-2RQlFXc8O8EbAY924xFuF5Ll-fu4nKULUfKuIs5-bec3fm5FOOnjYep8MZxCe59XaMtRS13LtM27_vrqOshO5j0IVf2z8DPJB7VPPlsVWrNyAfG_jITxg3WOjjJGThHvC76awaht33126GUcShMPV4xXObvR56CB27LaFprgRmb9yI1pEwAjpSs1B7IXnWrfvh354xyE3XcZiorCAgrRCzNGalEE6Q9dxswJ2DJ_r9twX2XXUZ94pbMaDsL-QBKi3Sg9sesw3wknId_epxEagz6pjTOwEF0vqXZCYpIOpZfPCm61wMGz1VLc-Swe84O3lLupP6VH_IVrao7CFhRaUj2ANZG_xF_Vv61z7gP9UrcSIRlvcJixP2Uq2ooiekXLKwLqlYzxWym65FW0kpdb_1iv9a8F2_x5K2JiAgZ4Hvr15D2R86CziS8xx0rLbbqH8g1Be0TYJQ-B-raewtJ9b8OKqqHUcQ9dvuzR4HLre-dgrxXb2VOMgTOeeuKeYMZW-fTVBUcETy2nIY_GM-HiX941rWPwFLnn-RqKRpr-pdcPps4tIEG3ob4EYSw--5fXlE-5u_Fb8FU3HtomHuCC0mUotREbdK9VLwXL9if1LnuGoeFTNNxJg2kWOopS5r13E3quLcTVsyFWSNm4hnvbw9jzGXsJE1glm-6iDnYMWiaJzGXhQ4AjsdP5_zIP6VKnsuVFO2R4SWshYqbW2gpF94Mu6sUknXNZmlDJJNaDczcIV2mPSZt0BeeebpY68P4epdDBmRdEb4EvmX8iK4XWrz494Tvw0MV__fIiqqLyacc3zm45SKn_fV5o_UTKex__vAv1h0nXML3jciamphj60l3IrWmfHNeVN63Txut9Mssu9WkvAMhBh7Uaur6yplGLM97GIRSdP40CPHE4GgtT3-jnLXvFZxC9yxJyinKMUqYRTLU1Y7CrWS-Z_9qjxU5LTo1ZK8zIaScZimqGAkbxg1POxk1oLSNRnlS50Epnx-OQw3Uj9WuwjZtGitoaoHaqnaRZCYOsozFfgUt2Uwl6g_Lt6RuATPmzVXbmNl7ipW9Xis5FFNU38f58MZAqj79XGDc5HxWrMO0bMqL-5niGxoUkzekHlJf5j11P1mPhyscG9VFHDHABPzkCCjbeMpU7IzZabUSZ1-nSyI1I0rtfa5wPOUctbzSNz4aOkrocWiZd2FEZR_RjtYeFfxqX5VY3fvWZN0yIhc-JdqpeHs7Ng7sSGhUgkXsZDoTlXPb7H5sA46lfDVtw3eP6pkr2iBo27YhVfW8EY4Xb1ecqS83qR8JhFacIvGknvYqeGqoilbeDosbFrAUD1V5YKbC2XwvLvNsNF0WfkP2TYv4KqgBWTgGEDdlvqOclzxW3QlsBvrdS7eXTuBwxvx0mSt6-Ll17X17mfaTBe9F6gF0cwu-7yxgDbXvRa-jxRzaO-rp8ztoVcBHVx6C7EbfpN3q33d7HnkVt9zho_S-9utKqPt6Ra18WXj0Qjc9N0vhNSB6vW6OA262jnVcoWVtytp4ebI7-Cci5QQvcf9XvCf9mI0XWc0phZWNMwEXj6aYiKoYqRTu3QnrBpBkzoe7IQZgKLz_btK8Fc_nrWCmnioYejogWsm38CcHb-Hcdb51D9q8xXisuEfVL6IhNw2luPl5GIimTOz7WIZh9O-nq0ElgOgv7z7xDiY8pE1zBD5IaygoU1r4BSF3d24xvFW8BV_43wTZLHr15e7j8QYudvhqarma5Z6NyciHEQWtVwtA5YIaY",
+        "desc": "Криминальная драма",
+        "link": "details.html?title=Во все тяжкие"
+    },
+    {
+        "title": "Шерлок",
+        "category": "series",
+        "year": "2010-2017",
+        "img": "https://kinopoisk-ru.clstorage.net/FP1K46222/1efa27VY/NH8n_aOHLHwb6puVmkj14lcW2qEuNWoFz5tphXr-ukYnPCJjInxUGBp6bVzAKUn-zFEFx_gi67akcE36mIoBicC7Anymwt1t7irudO694IdiAh4ky0EbwUqvKFRP-1-01D6hQbVeN-qYeKtIpD0Yi0lU4cad9_qzAMF5jb47cq52DRe8YjbN-Akq-8BpOXZTVkcfUxynDFftC0wHuw6p5XW-A0CG_bb7i4i6u3cMTFvL1wAVfZYa4xRAS94vndKsdTyFHfF2bFg4OCuQaNoWINbF7eEvBa7m3qmu1wg-KlfHvIBS9d-U-okbmtm3bp5663YhRu_FS-ElEthOf6-hXHVstPyxdwxry-gJgHrY9oNX9i4z32aMZY0I7waK7MhVZL8z8oReNGiKGkso517cK1m1ARSfldvjNXL6fi8eIUykvHUNk-cNiDkqSoPJ-ZQDdGYuMa83DocNmE51OT8JJjTf8iHmncbZKBs5GRWdLEjqxzN1Pxb58PQRyhztLlPNx_yVrjDXj7uLykgQ2YnV4qXF78LsJF_1HzsOReqe6KVGnnJTxC4EK2srupnk3B5aiGbDRe6Ue8L1MKmf3X-wvIacdq5hRDzKaqj4kvjrd0MkNj9jbVb9ZN2oXDdpXgoEBkwTwfX-Bauoeoi7lFxc-MlFoFT_JQqzh4ILfn2PIP6Vbqe8UzUfOOpYefOpumcRtWUsEkyFrKae-y0HmoyphicMkwGmzne4aSqZeqZPbwipRWEkznTLsWSzOr4N_-PttxzmTCFWvbgoC0mDKsikUKWnDBJe9B-lDbpMF4isaERU3lBhtiwVywto6ctlf0yK2kcTVX_W-XNXcCjO_OzhDDcshtyQNk_oOmlZMnhb9DI19EyxnDQ9tz6qHfbKLwhnhP4zk0a990sqyCvJFQwuSsikoGQcR-rghjHazJ9fsTyV7ycP8hZfWYnJiTM6-pYwRhcc8N50b4QfC2-HW_zrteaOgYPWLEQayIupeqVvL2mq1JBmDRYow6ZwOv59fyHPlCy0bEIUzGloKUjTKQp2QtdXbrGuly2nzoutB-qeCpZ3_pGg9O-k-Lsay8pFD_4b2uSQNh-kK0PHMov8D11hnra_RU4SF63Y6CiqEwioRTJnpyyzLid8hOybX_UpTupUtF5jgqTv5qiY-ksqVi8-WdnmUadfRUvT9jD6zC1OYyy3_Pf90tY_Cpu72NPI-2RQlFXc8O8EbAY924xFuF5Ll-fu4nKULUfKuIs5-bec3fm5FOOnjYep8MZxCe59XaMtRS13LtM27_vrqOshO5j0IVf2z8DPJB7VPPlsVWrNyAfG_jITxg3WOjjJGThHvC76awaht33126GUcShMPV4xXObvR56CB27LaFprgRmb9yI1pEwAjpSs1B7IXnWrfvh354xyE3XcZiorCAgrRCzNGalEE6Q9dxswJ2DJ_r9twX2XXUZ94pbMaDsL-QBKi3Sg9sesw3wknId_epxEagz6pjTOwEF0vqXZCYpIOpZfPCm61wMGz1VLc-Swe84O3lLupP6VH_IVrao7CFhRaUj2ANZG_xF_Vv61z7gP9UrcSIRlvcJixP2Uq2ooiekXLKwLqlYzxWym65FW0kpdb_1iv9a8F2_x5K2JiAgZ4Hvr15D2R86CziS8xx0rLbbqH8g1Be0TYJQ-B-raewtJ9b8OKqqHUcQ9dvuzR4HLre-dgrxXb2VOMgTOeeuKeYMZW-fTVBUcETy2nIY_GM-HiX941rWPwFLnn-RqKRpr-pdcPps4tIEG3ob4EYSw--5fXlE-5u_Fb8FU3HtomHuCC0mUotREbdK9VLwXL9if1LnuGoeFTNNxJg2kWOopS5r13E3quLcTVsyFWSNm4hnvbw9jzGXsJE1glm-6iDnYMWiaJzGXhQ4AjsdP5_zIP6VKnsuVFO2R4SWshYqbW2gpF94Mu6sUknXNZmlDJJNaDczcIV2mPSZt0BeeebpY68P4epdDBmRdEb4EvmX8iK4XWrz494Tvw0MV__fIiqqLyacc3zm45SKn_fV5o_UTKex__vAv1h0nXML3jciamphj60l3IrWmfHNeVN63Txut9Mssu9WkvAMhBh7Uaur6yplGLM97GIRSdP40CPHE4GgtT3-jnLXvFZxC9yxJyinKMUqYRTLU1Y7CrWS-Z_9qjxU5LTo1ZK8zIaScZimqGAkbxg1POxk1oLSNRnlS50Epnx-OQw3Uj9WuwjZtGitoaoHaqnaRZCYOsozFfgUt2Uwl6g_Lt6RuATPmzVXbmNl7ipW9Xis5FFNU38f58MZAqj79XGDc5HxWrMO0bMqL-5niGxoUkzekHlJf5j11P1mPhyscG9VFHDHABPzkCCjbeMpU7IzZabUSZ1-nSyI1I0rtfa5wPOUctbzSNz4aOkrocWiZd2FEZR_RjtYeFfxqX5VY3fvWZN0yIhc-JdqpeHs7Ng7sSGhUgkXsZDoTlXPb7H5sA46lfDVtw3eP6pkr2iBo27YhVfW8EY4Xb1ecqS83qR8JhFacIvGknvYqeGqoilbeDosbFrAUD1V5YKbC2XwvLvNsNF0WfkP2TYv4KqgBWTgGEDdlvqOclzxW3QlsBvrdS7eXTuBwxvx0mSt6-Ll17X17mfaTBe9F6gF0cwu-7yxgDbXvRa-jxRzaO-rp8ztoVcBHVx6C7EbfpN3q33d7HnkVt9zho_S-9utKqPt6Ra18WXj0Qjc9N0vhNSB6vW6OA262jnVcoWVtytp4ebI7-Cci5QQvcf9XvCf9mI0XWc0phZWNMwEXj6aYiKoYqRTu3QnrBpBkzoe7IQZgKLz_btK8Fc_nrWCmnioYejogWsm38CcHb-Hcdb51D9q8xXisuEfVL6IhNw2luPl5GIimTOz7WIZh9O-nq0ElgOgv7z7xDiY8pE1zBD5IaygoU1r4BSF3d24xvFW8BV_43wTZLHr15e7j8QYudvhqarma5Z6NyciHEQWtVwtA5YIaY",
+        "desc": "Детективные истории",
+        "link": "details.html?title=Шерлок"
+    },
+    {
+        "title": "Гордость и предубеждение",
+        "category": "series",
+        "year": "1995",
+        "img": "https://upload.wikimedia.org/wikipedia/ru/9/9e/Pride_%26_Prejudice_1995.jpg",
+        "desc": "Классическая драма",
+        "link": "details.html?title=Гордость и предубеждение"
+    },
+    {
+        "title": "Игра в кальмара",
+        "category": "series",
+        "year": "2021-...",
+        "img": "https://kinopoisk-ru.clstorage.net/FP1K46222/1efa27VY/NH8n_aOHLHwb6puVmkj14lcW2qEuNWoFz5tphXr-ukYnPCJjInxUGBp6bVzASRluzFFUo20iHuakdWiLKRoR6bFqkqnjo3mdbl-_xa7YwBd3In5x-zRLsOs_SFDL68-yJD9BQYSPNjsomEs7ND0dHxl0kddsB5sShJS5_x48ha_G3CS8sxetiEvIyoAaygSRRgZeANy27dcdmOw0mB86RHWeweOFvJW6OYu7KsfuLEvJ9hI2v-f68tSAOM1NrSMPxN8VLhKE7Snr-dhQSsvn8TWG3PJuhU91rKtO1kisCsfHLMNgl8-3mDiJKAqlLk6Z6NazF-x1qaPWsWpe3f0RfDTfRR_zxOxJ2AoIclrZ5RGWB-8xvHUsVy_475eZLtglxY_A0ze-NjiqiinbVH5-27lkcDe-Bfkz1KEKfO2toPwkDpXeAuZ8SDv4yjFZasRzFiR_Mb4FfdXNeH826p0L5LbfoBLk3PXKGygoqWWMvSva1wIF36V6EcdgaUyPb5COpW3VPqFFTMoISiozynq0Mvf13PBNRm6Ev2rcdtpOqgU1reGSlv5GCOlrGCrlffwZyLWj9e90-JP1YUgvDF_BbdQstd2hFN95eatIg0hb1pBWdC8g7MccJi6oTySozWrnlO0z8wTPlglpqEkYxw18W2r0gJb-ZUnihBP6je3_Mf2WP0cMsyauWosruAIpCoeABOV8M53mz3fs6xxVmD64RBbMc3PEnKZ7emkZCQY_b2ialIBXjlQYI4bwy7wtj0E-hR01TUNUzfgL6esyWYn1Q0X1vhOd9L7E73hdNIgsmIXUv6GwpIxEGQkLW3m3_F9LGOeCJf_luhFEwwiuXX5SPGSdBS3T5a0KW_uJIujbZhMnZe1TPjZ-5v1LTWVpbhvl92-B01Z81fuJKvu7tYwsKdj1YZbOhisC1xJJXF8d4WxUP8aMAIeNGupIKfLpmcdxJRYOA390PrTOauwXGP_IBiUN8WFG7ERI2Mi4OQY8Tyj7lxGmzJd6wPQyCLxt_8H8pz4FH2M3j4naqckzCYo3kVeHTnE-BN327bts1ZhOqucGnIFxZc6HqDq7KVu23C_5iechppyFyMN0U0oNb43jvPYclu5BZ4zoaynI0cmrlaInN74zPIRtp86ZfCdqjXoHxF8hg0eeh-pqmMnbVs8POcvkI2cNxSmj5GJIfF-v8L5EHdVc8qdNerlaW6MJa8aDRcRMw39FTrdMSDz02hxqpgcMkQK3rkVLCLi4qYUuvNprhNHVDRfrQcdSCY99_-N-Re8E3CGmrapIKkiQ-5ilEzQH79BPZW7Fn0keFMrO-SWXLYHS1vxl2vg4-olE3pwpaFbDlx3nmTOWAAmu37_g7DRMxuyR95wreKm6EFu6phA3Zb1TjyTed55rLybqD0oV5wzzktZPtGroKzuYV90MyouUgSUOpxvzB7MYT2090xwVPXTtcpcNidv664La6baTtabes0zWbkfNCp3k2844FzbfsSCETtapGwm52EYPfzu7hxI1rFU5o0RwyP1djGCPhg7XPhCHjugZ-ugji8p1ERWGX-Ce1Rwl_7pfd2ru6KUUjsIip_6VmGlqGxmVjgyrmZeTBW_2ygOmwqrMzu1Dv9d8lbxghH_oOknoYjrY1jCFpl7RDWRuZ41ozFUpTislpe6S86WuVgso2kibNWyfCbiXQmdupxoThNP5TT5tI1_U_UbOQUefi8oqagJZumYAxgQMA56W_EfMSv-3GC1LlUZe8CCX3ffoqCkp-4YOfDkJBXG3rETqECYQyH193eCMVkzGbmC0z5nIqXgAWKh0c7eEXXJdFx5nXVo_50sd2vcXbjMztBxlqJrqGtvmbPxKeIVyJfxW6bEU8pqffO2xvqTPxY9CFQ0qCUnZo-vLp8Akx5wRjySNlK2JL0c67qomBf-ScSQfxIlIm2j4VY7-CymW0aTfVwqBdLDr3J5OYvw1DBSNYqWM28p7uJAZW0dwVlZ9Qp4UTmUviW_WiP6IFWdvkCOGL5f7CoqZG7U-PNirhSAUDWeZkZRha69__UAtR3w0jFO3bMh7W3rjuUh0kDflv2P89B4F_Tr81WtvGFZFT8Pj5Dx22KjqyVrl3wzI6SVBZN5kWODGUJjuvs3BfvQfxr6TN2xp-gvJsevppaInhMyRTQcuZS2KjfeKnRnXpY_Q0-Se9GrrqiuZZ18tSKkk8JYeFyqRZXM5rwydMJ5lfqZ-obetKKnqiBFbeZeRhDQ_ET0mj6VPWD40uk47JidPEeH23KVZGZjq6_YMnVm5BNFl_kWrEcdSOCytf-K9tE5V_aO2Lyl5ShviOLgn84ZnvQHd9azmP0q-9xiPKPZFrmPRBT6U6Moo6Oi2zcyLS1RwJM3Fy6MVoVvMfv8QrVRPNR6zp6x7qfuqk6vLpJB0FHwAXiScxV-JjScK_OkWRo-i0uctVikYqUvrR68u69pVkbTvdgjSJAELXX_80t7mD1WeYrbsyllYy6H6y-ZRNAXso54kXbQd6U5XqA0r5BS948I0nvb66HhZOPbP_gkZJtOGvpU5kVcyul_vrZAuBJ50vXE2bQg4OcrT2_oF4QVnfKEsNt3nHKjuFJle6aYnfDEAtfyUeFsrSWjF7M166aQzpa91KQI24AuNLW2SvWUfxu6g1l5ZafoKkimYVbLVF04BDUYMBO6oDafo3yqUhVyjAWbO1vopSptrBtyNe8tFMXSdp1uj1qFY_C7sMN4GHKfeU9T-KHkbmAJomMXAN7UdMP5VHWdtiH_1iP35xBV-8tPELeeqWoiZiNWNztqb1sOmzlTrUxaSGK4vfdAP1L_mTKIVPduZ2ZpB-vn0UOV3HnBudj9lP3o9xFrcmFXXPlBC5A1lqXr5Soj0P2zraWVDV151y0N2sfhuvG2ALGaMFQ9CBp97-6rIU4n5xeI0J25xvhYfZ08qH6ebfRiXZQ6RAzQ8Rno6alkp5ny-ilv1QievNzvjd3H6k",
+        "desc": "Сериальный триллер",
+        "link": "details.html?title=Игра в кальмара"
+    },
+    {
+        "title": "Фишер",
+        "category": "series",
+        "year": "2023",
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/4/45/%D0%A4%D0%B8%D1%88%D0%B5%D1%80_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg/500px-%D0%A4%D0%B8%D1%88%D0%B5%D1%80_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg",
+        "desc": "Современный сериал",
+        "link": "details.html?title=Фишер"
+    },
+    {
+        "title": "Аркейн",
+        "category": "series",
+        "year": "2021-2024",
+        "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/f/f2/%D0%90%D1%80%D0%BA%D0%B5%D0%B9%D0%BD_%28%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%29.jpg/500px-%D0%90%D1%80%D0%BA%D0%B5%D0%B9%D0%BD_%28%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%29.jpg",
+        "desc": "Анимационный сериал",
+        "link": "details.html?title=Аркейн"
+    }
+]

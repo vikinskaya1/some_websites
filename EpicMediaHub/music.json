@@ -1,0 +1,204 @@
+[
+    {
+        "type": "latestAlbum",
+        "artist": "Linkin Park",
+        "title": "Meteora",
+        "year": 2003,
+        "duration": "36:35",
+        "tracks": [
+            "Foreword",
+            "Don't Stay",
+            "Somewhere I Belong",
+            "Lying from You",
+            "Hit the Floor",
+            "Easier to Run",
+            "Faint",
+            "Figure.09",
+            "Breaking the Habit",
+            "From the Inside",
+            "Nobody's Listening",
+            "Session",
+            "Numb"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/0/0c/Linkin_Park_Meteora_Album_Cover.jpg"
+    },
+    {
+        "type": "concert",
+        "title": "Концерт Linkin Park",
+        "date": "2026-05-29",
+        "img": "https://upload.wikimedia.org/wikipedia/en/0/0c/Linkin_Park_Meteora_Album_Cover.jpg",
+        "city": "Стокгольм"
+    },
+    {
+        "type": "concert",
+        "title": "Концерт Metallica",
+        "date": "2026-05-09",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+        "city": "Маруси"
+    },
+    {
+        "type": "artist",
+        "title": "Limp Bizkit",
+        "founded": "1994",
+        "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Limp_Bizkit_Chocolate_Starfish_and_the_Hotdog_Flavored_Water.jpg"
+    },
+    {
+        "type": "artist",
+        "title": "Twenty One Pilots",
+        "founded": "2009",
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png"
+    },
+    {
+        "type": "artist",
+        "title": "Nirvana",
+        "founded": "1987",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+        "type": "artist",
+        "title": "System Of A Down",
+        "founded": "1994",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg"
+    },
+    {
+        "type": "artist",
+        "title": "Deftones",
+        "founded": "1988",
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/16/Deftones_-_White_Pony-greycoverart.jpg"
+    },
+    {
+        "type": "artist",
+        "title": "Metallica",
+        "founded": "1981",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg"
+    },
+    {
+        "type": "album",
+        "artist": "Limp Bizkit",
+        "title": "Chocolate Starfish and the Hotdog Flavored Water",
+        "year": 2000,
+        "duration": "70:39",
+        "tracks": [
+            "Intro",
+            "My Generation",
+            "My Way",
+            "Rollin'",
+            "Take a Look Around",
+            "Boiler",
+            "Rollin' (Urban Assault Vehicle)",
+            "Hot Dog",
+            "Eat You Alive",
+            "Getcha Groove On",
+            "All in the Family",
+            "Full Nelson",
+            "Grand Finale"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Limp_Bizkit_Chocolate_Starfish_and_the_Hotdog_Flavored_Water.jpg"
+    },
+    {
+        "type": "album",
+        "artist": "Twenty One Pilots",
+        "title": "Blurryface",
+        "year": 2015,
+        "duration": "51:04",
+        "tracks": [
+            "Heavydirtysoul",
+            "Stressed Out",
+            "Ride",
+            "Fairly Local",
+            "Tear in My Heart",
+            "Lane Boy",
+            "The Judge",
+            "Doubt",
+            "Polarize",
+            "We Don't Believe What's on TV",
+            "Message Man",
+            "Hometown",
+            "Not Today"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png"
+    },
+    {
+        "type": "album",
+        "artist": "Nirvana",
+        "title": "Nevermind",
+        "year": 1991,
+        "duration": "49:23",
+        "tracks": [
+            "Smells Like Teen Spirit",
+            "In Bloom",
+            "Come as You Are",
+            "Breed",
+            "Lithium",
+            "Polly",
+            "Territorial Pissings",
+            "Drain You",
+            "Lounge Act",
+            "Stay Away",
+            "On a Plain",
+            "Something in the Way"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+        "type": "album",
+        "artist": "System Of A Down",
+        "title": "Toxicity",
+        "year": 2001,
+        "duration": "44:06",
+        "tracks": [
+            "Prison Song",
+            "Needles",
+            "Deer Dance",
+            "Jet Pilot",
+            "X",
+            "Chop Suey!",
+            "Bounce",
+            "Forest",
+            "ATWA",
+            "Science",
+            "Shimmy",
+            "Toxicity",
+            "Psycho"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg"
+    },
+    {
+        "type": "album",
+        "artist": "Deftones",
+        "title": "White Pony",
+        "year": 2000,
+        "duration": "56:45",
+        "tracks": [
+            "Feiticeira",
+            "Digital Bath",
+            "Elite",
+            "Rx Queen",
+            "Knife Prty",
+            "Korea",
+            "Passenger",
+            "Change (In the House of Flies)",
+            "Pink Maggit",
+            "White Pony"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/16/Deftones_-_White_Pony-greycoverart.jpg"
+    },
+    {
+        "type": "album",
+        "artist": "Metallica",
+        "title": "Master of Puppets",
+        "year": 1986,
+        "duration": "54:47",
+        "tracks": [
+            "Battery",
+            "Master of Puppets",
+            "The Thing That Should Not Be",
+            "Welcome Home (Sanitarium)",
+            "Disposable Heroes",
+            "Leper Messiah",
+            "Orion",
+            "Damage, Inc."
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg"
+    }
+]
