@@ -1,13 +1,10 @@
-// search.js — универсальный поиск по фильмам, сериалам, музыке и играм
-
-let contentData = [];  // фильмы и сериалы
+let contentData = []; 
 let musicData = [];
 let gamesData = [];
 let popularData = [];
 
-const MAX_SUGGESTIONS = 8; // максимум подсказок в поиске
+const MAX_SUGGESTIONS = 8; 
 
-// Загружаем все JSON
 async function loadSearchData() {
     try {
         const [moviesRes, musicRes, gamesRes, popularRes] = await Promise.all([
@@ -31,7 +28,6 @@ async function loadSearchData() {
     }
 }
 
-// Собираем все элементы для поиска
 function getAllSearchItems() {
     const movies = contentData.filter(i => i.category === 'movie').map(i => ({ ...i, type: 'movie' }));
     const series = contentData.filter(i => i.category === 'series').map(i => ({ ...i, type: 'series' }));
@@ -41,7 +37,6 @@ function getAllSearchItems() {
     return [...movies, ...series, ...music, ...games];
 }
 
-// Получение ссылки на карточку
 function getItemLink(item) {
     if (item.type === 'movie' || item.type === 'series') {
         return `details.html?title=${encodeURIComponent(item.title)}`;
@@ -55,7 +50,6 @@ function getItemLink(item) {
     return '#';
 }
 
-// Создание карточки подсказки поиска
 function createSearchSuggestionCard(item) {
     const div = document.createElement('div');
     div.textContent = item.title || item.name;
@@ -70,7 +64,6 @@ function createSearchSuggestionCard(item) {
     return div;
 }
 
-// Подключение поиска
 async function setupSearch() {
     await loadSearchData();
 
@@ -102,5 +95,4 @@ async function setupSearch() {
     });
 }
 
-// Автозапуск
 document.addEventListener('DOMContentLoaded', setupSearch);
