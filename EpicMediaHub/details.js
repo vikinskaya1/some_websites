@@ -19,7 +19,7 @@ async function loadLayout() {
         document.body.insertAdjacentHTML('afterbegin', header);
         document.body.insertAdjacentHTML('beforeend', footer);
 
-        // Подсказки поиска
+
         const searchInput = document.getElementById('searchInput');
         const suggestionsBox = document.getElementById('suggestions');
         if (searchInput) {
@@ -63,7 +63,7 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-// Рендер деталей оставляем, но пока не вызываем
+// Рендер деталей оставила, но пока не вызываю
 function renderDetails(title) {
     const movie = contentData.find(item => item.title === title);
     const container = document.getElementById('details-container');
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadLayout();
     await loadData();
 
-    // Пока что оставляем только бесконечную загрузку
+    // Пока что оставила только бесконечную загрузку
     const container = document.getElementById('details-container');
     if (container) {
         container.innerHTML = '<p class="loading">Загрузка</p>';
