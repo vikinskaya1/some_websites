@@ -89,7 +89,7 @@ h2 {
     background-color: #333;
 }
 
-/* --- Контейнеры карточек --- */
+
 .card-container,
 .description-card,
 .news-card-container,
@@ -100,7 +100,7 @@ h2 {
     padding: 20px;
 }
 
-/* --- Общие карточки --- */
+
 .card,
 .description,
 .news-card,
@@ -119,7 +119,6 @@ h2 {
     transition: 0.3s;
 }
 
-/* --- Карточки --- */
 .card {
     width: 200px;
     display: flex;
@@ -144,7 +143,6 @@ h2 {
     flex-grow: 1;
 }
 
-/* --- Кнопки --- */
 .button,
 .btn-more {
     display: flex;
@@ -167,8 +165,6 @@ h2 {
     background-color: #b30000;
     transform: scale(1.05);
 }
-
-/* --- Кнопка вне карточек --- */
 .btn-main {
     display: inline-block;
     width: auto;
@@ -190,7 +186,6 @@ h2 {
     transform: scale(1.05);
 }
 
-/* --- Description --- */
 .description {
     font-family: 'Press Start 2P', cursive;
     text-align: right;
@@ -207,7 +202,7 @@ h2 {
     background-color: #333;
 }
 
-/* --- Footer --- */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -225,7 +220,6 @@ footer .copyright {
     text-align: right;
 }
 
-/* --- Reviews --- */
 .review-card {
     display: flex;
     align-items: flex-start;
@@ -253,7 +247,6 @@ footer .copyright {
     color: #ffffff;
 }
 
-/* --- Genre cards --- */
 .genre-card {
     background-image: url('path-to-genre-background.jpg');
     background-size: cover;
@@ -281,7 +274,6 @@ footer .copyright {
     z-index: 1;
 }
 
-/* --- Search --- */
 .search-container {
     margin-top: 15px;
     text-align: center;
@@ -291,7 +283,6 @@ footer .copyright {
 #searchInput {
     padding: 10px 20px;
     width: 300px;
-    /* оставляем прежнюю ширину */
     border-radius: 20px;
     border: 2px solid #ff0000;
     background: #181818;
@@ -304,17 +295,14 @@ footer .copyright {
     outline: none;
     border-color: #ff4d4d;
     box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
-    /* красная подсветка */
 }
 
 #suggestions {
     position: absolute;
     top: 120%;
-    /* чуть больше отступ сверху */
     left: 50%;
     transform: translateX(-50%);
     width: 500px;
-    /* шире */
     max-width: 95%;
     background: #222;
     border: 2px solid #ff0000;
@@ -324,7 +312,6 @@ footer .copyright {
     z-index: 1000;
     display: none;
     box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3);
-    /* мягкая тень */
 }
 
 #suggestions div {
@@ -337,17 +324,13 @@ footer .copyright {
 
 #suggestions div:hover {
     background-color: rgba(255, 0, 0, 0.2);
-    /* красная подсветка при наведении */
-
 }
 
-/* --- Logo --- */
 .logo {
     text-decoration: none;
     color: white;
 }
 
-/* --- Categories --- */
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -372,7 +355,6 @@ footer .copyright {
     color: #ff0000;
 }
 
-/* --- Popular Section --- */
 .popular {
     padding: 40px 20px;
 }
@@ -382,7 +364,6 @@ footer .copyright {
     margin-bottom: 20px;
 }
 
-/* --- Hero Section --- */
 .hero-section {
     text-align: center;
     padding: 80px 20px;
@@ -436,7 +417,6 @@ footer .copyright {
     animation: none;
 }
 
-/* --- News Section --- */
 .news-section {
     padding: 60px 20px;
     display: flex;
@@ -471,7 +451,6 @@ footer .copyright {
     font-size: 0.9em;
 }
 
-/* --- Media Queries --- */
 @media (max-width: 500px) {
     .hero-section {
         padding: 50px 10px;
@@ -486,8 +465,6 @@ footer .copyright {
         width: 100%;
     }
 }
-
-/* --- Общие карточки с hover-анимацией --- */
 .card,
 .description,
 .news-card,
@@ -498,7 +475,6 @@ interview-card,
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* --- Hover-анимация подсветки --- */
 .card:hover,
 .description:hover,
 .news-card:hover,
@@ -510,7 +486,6 @@ interview-card,
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
 }
 
-/* --- Details --- */
 .details-container {
     max-width: 900px;
     margin: 40px auto;
