@@ -2,69 +2,69 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Светлый фон */
+    background-color: #f9f9f9; 
 }
 
 .profile-header {
-    background-image: url('https://static.tildacdn.com/tild6465-3134-4531-b135-303430386463/1679151143_food-pibi.jpg'); /* Путь к изображению */
-    background-size: cover; /* Заполняет весь блок */
-    background-position: center; /* Центрирует изображение */
-    height: 300px; /* Высота шапки */
+    background-image: url('https://static.tildacdn.com/tild6465-3134-4531-b135-303430386463/1679151143_food-pibi.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 300px; 
     display: flex;
-    align-items: center; /* Вертикальное выравнивание по центру */
-    color: #5b3e26;; /* Цвет текста */
-    padding: 20px; /* Отступы внутри шапки */
+    align-items: center; 
+    color: #5b3e26;
+    padding: 20px; 
    
 }
 .profile-header h1{
     font-size: 55px;
 }
 .header-content {
-    max-width: 1200px; /* Максимальная ширина контента */
-    width: 100%; /* Ширина контента */
+    max-width: 1200px; 
+    width: 100%;
 }
 nav ul {
-    list-style-type: none; /* Убирает маркеры списка */
-    padding: 0; /* Убирает отступы */
+    list-style-type: none; 
+    padding: 0; 
     font-size: 20px;
 }
 
 nav ul li {
-    display: inline; /* Выстраивает элементы в строку */
-    margin-right: 20px; /* Отступ между элементами меню */
+    display: inline; 
+    margin-right: 20px; 
 }
 
 nav ul li a {
-    color: #5b3e26; /* Цвет ссылок */
-    text-decoration: none; /* Убирает подчеркивание */
+    color: #5b3e26; 
+    text-decoration: none; 
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Подчеркивание при наведении */
+    text-decoration: underline; 
 }
 .categories {
-    max-width: 1000px; /* Максимальная ширина блока */
-    margin: 20px auto; /* Центрирование блока */
+    max-width: 1000px;
+    margin: 20px auto; 
     text-align: center;
 }
 .categories h2 {
     font-size: 35px;
 }
 .category-buttons {
-    display: flex; /* Используем Flexbox для центрирования */
-    flex-wrap: wrap; /* Позволяем кнопкам переноситься на следующую строку */
-    justify-content: center; /* Центрируем кнопки по горизонтали */
-    gap: 10px; /* Промежуток между кнопками */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px;
 }
 
 .category-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #5d4a39; /* Песочный */
-    color: #ffe6d2; /* Темно-оранжевый */
-    height: 200px; /* Высота кнопки */
-    width: 200px; /* Ширина кнопки */
+    background-color: #5d4a39; 
+    color: #ffe6d2;
+    height: 200px; 
+    width: 200px; 
     text-decoration: none;
     border-radius: 5px;
     
@@ -78,16 +78,16 @@ nav ul li a:hover {
 }
 
 .popular-recipes, .recommendations {
-    display: flex; /* Используем Flexbox для центрирования */
-    flex-wrap: wrap; /* Позволяем кнопкам переноситься на следующую строку */
-    justify-content: center; /* Центрируем кнопки по горизонтали */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
     gap: 10px; 
    
 }
 
 h2 {
     text-align: center;
-    color: #5b3e26; /* Темно-оранжевый */
+    color: #5b3e26; 
 }
 
 .recipe-card {
@@ -113,6 +113,6 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #d9c6b2; /* Бежевый */
-    color: #5b3e26; /* Темно-оранжевый */
+    background-color: #d9c6b2; 
+    color: #5b3e26; 
 }
