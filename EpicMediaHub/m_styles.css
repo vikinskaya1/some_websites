@@ -76,7 +76,6 @@ a {
 #searchInput {
     padding: 10px 20px;
     width: 300px;
-    /* оставляем прежнюю ширину */
     border-radius: 20px;
     border: 2px solid #ff0000;
     background: #181818;
@@ -89,17 +88,14 @@ a {
     outline: none;
     border-color: #ff4d4d;
     box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
-    /* красная подсветка */
 }
 
 #suggestions {
     position: absolute;
     top: 120%;
-    /* чуть больше отступ сверху */
     left: 50%;
     transform: translateX(-50%);
     width: 500px;
-    /* шире */
     max-width: 95%;
     background: #222;
     border: 2px solid #ff0000;
@@ -109,7 +105,6 @@ a {
     z-index: 1000;
     display: none;
     box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3);
-    /* мягкая тень */
 }
 
 #suggestions div {
@@ -122,7 +117,6 @@ a {
 
 #suggestions div:hover {
     background-color: rgba(255, 0, 0, 0.2);
-    /* красная подсветка при наведении */
 
 }
 
@@ -138,7 +132,6 @@ a {
     padding: 20px;
 }
 
-/* --- Центрирование блока нового альбома --- */
 #latestAlbum {
     display: flex;
     justify-content: center;
@@ -165,7 +158,6 @@ a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* --- Hover-анимация --- */
 .card:hover,
 .description:hover,
 .news-card:hover,
@@ -179,7 +171,7 @@ a {
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
 }
 
-/* --- Карточки конкретные --- */
+
 .card {
     width: 200px;
     display: flex;
@@ -245,7 +237,7 @@ a {
     text-align: left;
 }
 
-/* --- Tracks --- */
+
 .tracks-container {
     margin-top: 10px;
 }
@@ -262,7 +254,7 @@ a {
     max-height: 500px;
 }
 
-/* --- Кнопки --- */
+
 .button,
 .btn-more,
 .btn-main {
@@ -295,7 +287,7 @@ a {
     text-align: center;
 }
 
-/* --- Description --- */
+
 .description {
     font-family: 'Press Start 2P', cursive;
     text-align: right;
@@ -308,7 +300,7 @@ a {
     padding: 50px;
 }
 
-/* --- Footer --- */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -354,7 +346,7 @@ footer .copyright {
     color: #ffffff;
 }
 
-/* --- Categories --- */
+
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -379,7 +371,7 @@ footer .copyright {
     color: #ff0000;
 }
 
-/* --- Details --- */
+
 .details-container {
     max-width: 900px;
     margin: 40px auto;
@@ -425,7 +417,6 @@ footer .copyright {
     border-radius: 10px;
 }
 
-/* --- Media Queries --- */
 @media (max-width: 500px) {
     .categories-grid {
         padding: 20px;
@@ -441,8 +432,6 @@ footer .copyright {
     }
 }
 
-/* --- Секция нового альбома --- */
-/* --- Блок нового альбома --- */
 #latestAlbum {
     display: flex;
     flex-direction: column;
@@ -450,7 +439,6 @@ footer .copyright {
     padding: 20px;
 }
 
-/* Заголовок с анимацией свечения */
 .latest-title {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -461,7 +449,6 @@ footer .copyright {
     animation: glowPulse 1.5s infinite alternate;
 }
 
-/* Анимация "свечения" */
 @keyframes glowPulse {
     from {
         text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
@@ -473,7 +460,7 @@ footer .copyright {
     }
 }
 
-/* Большая карточка альбома */
+
 .latest-album-card {
     display: flex;
     gap: 30px;
@@ -486,20 +473,20 @@ footer .copyright {
     align-items: flex-start;
 }
 
-/* Картинка слева */
+
 .latest-album-img {
     width: 300px;
     border-radius: 10px;
     flex-shrink: 0;
 }
 
-/* Правая часть с информацией и треками */
+
 .latest-album-content {
     flex: 1;
     text-align: left;
 }
 
-/* Список треков */
+
 .track-list-full {
     margin-top: 15px;
     padding-left: 20px;
@@ -510,7 +497,7 @@ footer .copyright {
     color: #ccc;
 }
 
-/* Адаптив для мобильных */
+
 @media (max-width: 700px) {
     .latest-album-card {
         flex-direction: column;
