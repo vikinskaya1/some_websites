@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты — ООО «РОСА»</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="logo">РО<span>СА</span></div>
+        <button class="burger" onclick="toggleMenu()">☰</button>
+    </header>
+
+    <section class="hero" style="padding: 80px 20px;">
+        <div class="container">
+            <h1>Реализованные проекты</h1>
+            <p>Примеры выполненных работ по проектированию и монтажу инженерных систем</p>
+        </div>
+    </section>
+
+    <section class="section">
+
+        <h2>Наши проекты</h2>
+
+        <div class="filters">
+            <button onclick="filterProjects('all', this)" class="active">Все</button>
+            <button onclick="filterProjects('housing', this)">ЖК</button>
+            <button onclick="filterProjects('factory', this)">Заводы</button>
+            <button onclick="filterProjects('agro', this)">Сельхоз</button>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card" data-type="housing">
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="">
+                <div class="project-content">
+                    <h3>Жилой комплекс</h3>
+                    <p>Екатеринбург</p>
+                    <div class="project-extra">
+                        <p>Полный цикл водоснабжения: проектирование, монтаж, насосные станции и запуск системы.</p>
+                        <ul>
+                            <li>Гидравлический расчёт</li>
+                            <li>Подбор оборудования</li>
+                            <li>Пусконаладка</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="factory">
+                <img src="https://s0.rbk.ru/v6_top_pics/ampresize/media/img/8/81/754678190421818.jpeg" alt="">
+                <div class="project-content">
+                    <h3>Промышленный завод</h3>
+                    <p>Челябинск</p>
+                    <div class="project-extra">
+                        <p>Инженерные сети: прокладка труб, монтаж оборудования, системы контроля давления.</p>
+                        <ul>
+                            <li>Прокладка трубопроводов</li>
+                            <li>Монтаж оборудования</li>
+                            <li>Контроль давления</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="agro">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="">
+                <div class="project-content">
+                    <h3>Сельхоз территория</h3>
+                    <p>Свердловская область</p>
+                    <div class="project-extra">
+                        <p>Автоматическая система полива с экономией воды и полной автоматизацией.</p>
+                        <ul>
+                            <li>Капельный полив</li>
+                            <li>Автоматизация</li>
+                            <li>Экономия ресурсов</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="housing">
+                <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858" alt="">
+                <div class="project-content">
+                    <h3>ЖК «Грин Хаус»</h3>
+                    <p>Тюмень</p>
+                    <div class="project-extra">
+                        <p>Монтаж систем водоснабжения и канализации.</p>
+                        <ul>
+                            <li>80 квартир</li>
+                            <li>Полная разводка</li>
+                            <li>3 месяца работ</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="housing">
+                <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb" alt="">
+                <div class="project-content">
+                    <h3>ЖК «Солнечный»</h3>
+                    <p>Пермь</p>
+                    <div class="project-extra">
+                        <p>Комплексная система водоснабжения жилого квартала.</p>
+                        <ul>
+                            <li>150 квартир</li>
+                            <li>2 насосные станции</li>
+                            <li>4 месяца</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="factory">
+                <img src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9" alt="">
+                <div class="project-content">
+                    <h3>Логистический центр</h3>
+                    <p>Пермь</p>
+                    <div class="project-extra">
+                        <p>Инженерные сети складского комплекса.</p>
+                        <ul>
+                            <li>15 000 м²</li>
+                            <li>Резервные линии</li>
+                            <li>2.5 месяца</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="factory">
+                <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da" alt="">
+                <div class="project-content">
+                    <h3>Производственный цех</h3>
+                    <p>Уфа</p>
+                    <div class="project-extra">
+                        <p>Системы водоснабжения и охлаждения оборудования.</p>
+                        <ul>
+                            <li>8 000 м²</li>
+                            <li>Системы давления</li>
+                            <li>3 месяца</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="agro">
+                <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399" alt="">
+                <div class="project-content">
+                    <h3>Тепличный комплекс</h3>
+                    <p>Курган</p>
+                    <div class="project-extra">
+                        <p>Система капельного полива теплиц.</p>
+                        <ul>
+                            <li>6 га</li>
+                            <li>Автоматизация</li>
+                            <li>1.5 месяца</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="agro">
+                <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf" alt="">
+                <div class="project-content">
+                    <h3>Фермерское хозяйство</h3>
+                    <p>Омск</p>
+                    <div class="project-extra">
+                        <p>Система орошения сельхозугодий.</p>
+                        <ul>
+                            <li>25 га</li>
+                            <li>Автополив</li>
+                            <li>2 месяца</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="project-card" data-type="factory">
+                <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="">
+                <div class="project-content">
+                    <h3>Энергетический объект</h3>
+                    <p>Самара</p>
+                    <div class="project-extra">
+                        <p>Система охлаждения и водоснабжения.</p>
+                        <ul>
+                            <li>12 000 м²</li>
+                            <li>Высокое давление</li>
+                            <li>4 месяца</li>
+                        </ul>
+                    </div>
+                    <button class="toggle-btn" onclick="toggleProject(this)">Подробнее</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="menu" class="menu">
+        <button class="menu-close" onclick="toggleMenu()">✕</button>
+        <a href="index.html">Главная</a>
+        <a href="index.html#services">Услуги</a>
+        <a href="projects.html">Проекты</a>
+        <a href="index.html#contacts">Контакты</a>
+    </div>
+
+    <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

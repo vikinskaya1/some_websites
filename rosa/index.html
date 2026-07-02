@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ООО «РОСА» — инженерные системы</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="logo">РО<span>СА</span></div>
+    <button class="burger" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+
+      <div class="hero-text">
+        <h1>Инженерные системы водоснабжения и инфраструктуры</h1>
+
+        <p>
+          Проектирование, монтаж и обслуживание инженерных сетей
+          для промышленных и частных объектов в Екатеринбурге и области.
+        </p>
+
+        <div class="hero-buttons">
+          <div id="popup" class="popup hidden">
+            <div class="popup-overlay" onclick="closeForm()"></div>
+
+            <div class="popup-content">
+              <h3>Оставить заявку</h3>
+
+              <form id="popupForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+
+                <textarea placeholder="Кратко опишите задачу"></textarea>
+
+                <button type="submit">Отправить</button>
+              </form>
+
+              <button class="close-btn" onclick="closeForm()">✕</button>
+            </div>
+          </div>
+          <a href="#services" class="hero-link">Смотреть услуги</a>
+        </div>
+
+        <div class="hero-tags">
+          <span>Проектирование</span>
+          <span>Монтаж</span>
+          <span>Обслуживание</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <h2>Услуги</h2>
+    <p class="section-sub">Нажмите на услугу, чтобы узнать подробнее</p>
+
+    <section id="services" class="section">
+      <h2>Услуги</h2>
+      <p class="section-sub">Нажмите на услугу, чтобы узнать подробнее</p>
+
+      <div class="services">
+
+        <!-- 1 -->
+        <div class="service">
+          <div class="service-header" onclick="toggleService(this)">
+            <div class="service-title">
+              <span class="icon">💧</span>
+              <h3>Проектирование систем водоснабжения</h3>
+            </div>
+            <span>+</span>
+          </div>
+          <div class="service-body">
+            Разработка проектной документации, гидравлические расчёты
+            и подбор оборудования под конкретный объект.
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="service">
+          <div class="service-header" onclick="toggleService(this)">
+            <div class="service-title">
+              <span class="icon">🔧</span>
+              <h3>Монтаж инженерных систем</h3>
+            </div>
+            <span>+</span>
+          </div>
+          <div class="service-body">
+            Прокладка труб, установка оборудования,
+            пусконаладка и запуск систем в эксплуатацию.
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="service">
+          <div class="service-header" onclick="toggleService(this)">
+            <div class="service-title">
+              <span class="icon">🌱</span>
+              <h3>Системы автоматического орошения</h3>
+            </div>
+            <span>+</span>
+          </div>
+          <div class="service-body">
+            Проектирование и установка систем полива
+            для частных участков и сельскохозяйственных объектов.
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="service">
+          <div class="service-header" onclick="toggleService(this)">
+            <div class="service-title">
+              <span class="icon">📐</span>
+              <h3>Инженерные расчёты</h3>
+            </div>
+            <span>+</span>
+          </div>
+          <div class="service-body">
+            Расчёт нагрузок, подбор оборудования
+            и оптимизация работы инженерных систем.
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="service">
+          <div class="service-header" onclick="toggleService(this)">
+            <div class="service-title">
+              <span class="icon">🏗</span>
+              <h3>Строительство инженерных сетей</h3>
+            </div>
+            <span>+</span>
+          </div>
+          <div class="service-body">
+            Комплексные работы по прокладке инженерных коммуникаций
+            для промышленных и частных объектов.
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="service">
+          <div class="service-header" onclick="toggleService(this)">
+            <div class="service-title">
+              <span class="icon">🛠</span>
+              <h3>Обслуживание и ремонт систем</h3>
+            </div>
+            <span>+</span>
+          </div>
+          <div class="service-body">
+            Диагностика, профилактика и ремонт инженерных систем
+            с целью обеспечения стабильной работы.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section">
+      <h2>Почему выбирают нас</h2>
+
+      <div class="stats-grid-min">
+
+        <div class="stat-item">
+          <div class="stat-number">12+</div>
+          <div class="stat-text">лет на рынке</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-number">150+</div>
+          <div class="stat-text">проектов реализовано</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-number">98%</div>
+          <div class="stat-text">довольных клиентов</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-number">24/7</div>
+          <div class="stat-text">поддержка</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STEPS -->
+    <section class="section">
+      <h2>Как мы работаем</h2>
+
+      <div class="timeline">
+
+        <div class="step left">
+          <div class="step-content">
+            <h3>Заявка</h3>
+            <p>Вы оставляете заявку на сайте или по телефону.</p>
+          </div>
+        </div>
+
+        <div class="step right">
+          <div class="step-content">
+            <h3>Консультация</h3>
+            <p>Уточняем задачи, объект и требования к системе.</p>
+          </div>
+        </div>
+
+        <div class="step left">
+          <div class="step-content">
+            <h3>Проектирование</h3>
+            <p>Разрабатываем техническое решение и расчёты.</p>
+          </div>
+        </div>
+
+        <div class="step right">
+          <div class="step-content">
+            <h3>Монтаж</h3>
+            <p>Выполняем установку оборудования и систем.</p>
+          </div>
+        </div>
+
+        <div class="step left">
+          <div class="step-content">
+            <h3>Сдача объекта</h3>
+            <p>Проверка, запуск и передача готовой системы.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Проекты</h2>
+      <div class="grid">
+        <div class="card">Жилой комплекс</div>
+        <div class="card">Промышленный объект</div>
+        <div class="card">Сельхоз территория</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contacts" class="contact-section">
+
+      <!-- Контакты -->
+      <div class="contact-info">
+        <h2>Контакты</h2>
+
+        <p><strong>Адрес:</strong> Екатеринбург</p>
+        <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+        <p><strong>Email:</strong> info@rosa.ru</p>
+
+        <div class="contact-note">
+          Ответим в течение рабочего дня
+        </div>
+      </div>
+
+      <!-- Форма -->
+      <form class="contact-form">
+        <h3>Оставить заявку</h3>
+
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Телефон" required>
+
+        <textarea placeholder="Кратко опишите задачу"></textarea>
+
+        <button type="submit">Отправить заявку</button>
+      </form>
+
+    </section>
+
+    <!-- MENU -->
+    <div id="menu" class="menu">
+      <button class="menu-close" onclick="toggleMenu()">✕</button>
+      <a href="#services" onclick="toggleMenu()">Услуги</a>
+      <a href="projects.html" onclick="toggleMenu()">Проекты</a>
+      <a href="#contacts" onclick="toggleMenu()">Контакты</a>
+    </div>
+
+    <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+</body>
+
+<script src="script.js"></script>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея | День Победы 9 мая</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a class="link-to-main" href="index.html"><img src="logo.png" alt="Логотип"></a>
+                    <a class="link-to-main" href="index.html">
+                        <div class="logo-text">День <span>Победы</span></div>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="history.html">История</a></li>
+                        <li><a href="heroes.html">Герои</a></li>
+                        <li><a href="events.html">Мероприятия</a></li>
+                        <li><a href="gallery.html" class="active">Галерея</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="section-title">
+                <h2>Фотогалерея</h2>
+            </div>
+            <p class="page-intro">
+                Кадры, посвящённые Дню Победы: исторические моменты, современные торжества и главные символы
+                праздника. Нажмите на любое фото, чтобы увидеть его крупнее.
+            </p>
+
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="parade">Парад</button>
+                <button class="filter-btn" data-filter="memory">Память</button>
+                <button class="filter-btn" data-filter="symbols">Символы</button>
+                <button class="filter-btn" data-filter="veterans">Ветераны</button>
+            </div>
+
+            <div class="gallery" style="margin-top: 2rem;">
+                <div class="gallery-item" data-category="parade">
+                    <img src="https://735606.selcdn.ru/thumbnails/photos/2017/09/06/8yzaknntewg0nrrb_1024.jpg"
+                        alt="Парад Победы">
+                    <div class="gallery-caption">Парад Победы на Красной площади</div>
+                </div>
+                <div class="gallery-item" data-category="parade">
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marshal_Zhukov_at_1945_Moscow_Victory_Parade.jpg"
+                        alt="Парад Победы 1945 года">
+                    <div class="gallery-caption">Маршал Жуков принимает Парад Победы, 1945 год</div>
+                </div>
+                <div class="gallery-item" data-category="memory">
+                    <img src="https://cs13.pikabu.ru/post_img/big/2023/02/24/8/1677246348112943003.jpg"
+                        alt="Вечный огонь">
+                    <div class="gallery-caption">Вечный огонь у Кремлёвской стены</div>
+                </div>
+                <div class="gallery-item" data-category="memory">
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Captured_flags_of_fascist_Wehrmacht_in_the_Victory_Parade_in_Moscow_on_24_June_1945.jpg"
+                        alt="Знамёна поверженного врага">
+                    <div class="gallery-caption">Знамёна разгромленных немецких частей у Мавзолея, 1945 год</div>
+                </div>
+                <div class="gallery-item" data-category="symbols">
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Georgievskaya_lentochka.jpg"
+                        alt="Георгиевская лента">
+                    <div class="gallery-caption">Георгиевская лента - символ памяти</div>
+                </div>
+                <div class="gallery-item" data-category="veterans">
+                    <img src="https://img.gazeta.ru/files3/57/12346057/TASS_33183229-pic905-895x505-42760.jpg"
+                        alt="Ветераны">
+                    <div class="gallery-caption">Ветераны Великой Отечественной войны</div>
+                </div>
+                <div class="gallery-item" data-category="parade">
+                    <img src="https://kudamoscow.ru/uploads/be75b83a3ff92fe9f94b3742380771f2.jpg" alt="Салют">
+                    <div class="gallery-caption">Праздничный салют в День Победы</div>
+                </div>
+                <div class="gallery-item" data-category="symbols">
+                    <img src="https://rus.team/images/article/45476/2019-01-30-274_77350-1_371232.webp"
+                        alt="Мемориал памяти">
+                    <div class="gallery-caption">Мемориал воинской славы</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Лайтбокс -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <img src="" alt="">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>О проекте</h3>
+                    <p>Сайт создан с целью сохранения памяти о подвиге советского народа в Великой Отечественной войне и
+                        передачи этой памяти будущим поколениям.</p>
+                    <div class="social-links">
+                        <a href="https://vk.com/may9_ru?from=search" target="_blank"><i class="fab fa-vk"></i></a>
+                        <a href="https://t.me/may_9_ru" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://rutube.ru/u/may9/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Разделы</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="history.html">История</a></li>
+                        <li><a href="heroes.html">Герои</a></li>
+                        <li><a href="events.html">Мероприятия</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="https://pobeda.elar.ru/" target="_blank">Архив Победы</a></li>
+                        <li><a href="https://www.moypolk.ru/" target="_blank">Бессмертный полк</a></li>
+                        <li><a href="https://victorymuseum.ru/" target="_blank">Музей Победы</a></li>
+                        <li><a href="https://podvignaroda.ru/" target="_blank">Подвиг народа</a></li>
+                        <li><a href="https://pamyat-naroda.ru/" target="_blank">Память народа</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Екатеринбург, Проспект Ленина, 71</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+73433593270">+7 (343) 359-32-70</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto:info@victory-day.ru"> info@victory-day.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;saint development. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | День Победы 9 мая</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a class="link-to-main" href="index.html"><img src="logo.png" alt="Логотип"></a>
+                    <a class="link-to-main" href="index.html">
+                        <div class="logo-text">День <span>Победы</span></div>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="history.html">История</a></li>
+                        <li><a href="heroes.html">Герои</a></li>
+                        <li><a href="events.html">Мероприятия</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                        <li><a href="contacts.html" class="active">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент страницы -->
+    <section class="contacts-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Контакты</h2>
+                <p>Свяжитесь с нами для участия в мероприятиях или уточнения информации</p>
+            </div>
+
+            <div class="contacts-grid">
+                <!-- Контактная информация -->
+                <div class="contacts-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Адрес</h3>
+                    <p>Екатеринбург, Проспект Ленина, 71</p>
+
+                    <h3><i class="fas fa-phone"></i> Телефон</h3>
+                    <p><a href="tel:+73433593270">+7 (343) 359-32-70</a></p>
+
+                    <h3><i class="fas fa-envelope"></i> Email</h3>
+                    <p><a href="mailto: info@victory-day.ru">info@victory-day.ru</a></p>
+
+                    <h3><i class="fas fa-clock"></i> Часы работы</h3>
+                    <p>Пн-Пт: 9:00 - 18:00<br>Сб-Вс: 10:00 - 16:00</p>
+
+                </div>
+
+                <!-- Форма обратной связи -->
+                <div class="contacts-form">
+                    <h3>Напишите нам</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Телефон">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+
+                <div class="contacts-map">
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=60.624617%2C56.841312&mode=whatshere&whatshere%5Bpoint%5D=60.624003%2C56.841617&whatshere%5Bzoom%5D=17&z=17.88"
+                        width="100%" height="400" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>О проекте</h3>
+                    <p>Сайт создан с целью сохранения памяти о подвиге советского народа в Великой Отечественной войне и
+                        передачи этой памяти будущим поколениям.</p>
+                    <div class="social-links">
+                        <a href="https://vk.com/may9_ru?from=search" target="_blank"><i class="fab fa-vk"></i></a>
+                        <a href="https://t.me/may_9_ru" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://rutube.ru/u/may9/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Разделы</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="history.html">История</a></li>
+                        <li><a href="heroes.html">Герои</a></li>
+                        <li><a href="events.html">Мероприятия</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="https://pobeda.elar.ru/" target="_blank">Архив Победы</a></li>
+                        <li><a href="https://www.moypolk.ru/" target="_blank">Бессмертный полк</a></li>
+                        <li><a href="https://victorymuseum.ru/" target="_blank">Музей Победы</a></li>
+                        <li><a href="https://podvignaroda.ru/" target="_blank">Подвиг народа</a></li>
+                        <li><a href="https://pamyat-naroda.ru/" target="_blank">Память народа</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Екатеринбург, Проспект Ленина, 71</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+73433593270">+7 (343) 359-32-70</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto:info@victory-day.ru"> info@victory-day.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;saint development. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
