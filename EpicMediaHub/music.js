@@ -110,7 +110,6 @@ function setupTrackButtons() {
     });
 }
 
-// === Универсальный поиск (замена предыдущего куска) ===
 async function setupSearch() {
     let allData = [];
 
@@ -182,8 +181,6 @@ async function setupSearch() {
         }
     });
 }
-// === Конец универсального поиска ===
-
 
 function renderMusicPage() {
     const latestAlbumContainer = document.querySelector('#latestAlbum .latest-album-container');
@@ -193,7 +190,6 @@ function renderMusicPage() {
 
     if (!latestAlbumContainer || !concertsContainerEl || !artistsContainerEl || !albumsContainerEl) return;
 
-    // Новый альбом
     const latestAlbum = musicData.find(item =>
         item.type === "latestAlbum" && item.artist === "Linkin Park"
     );
@@ -202,15 +198,12 @@ function renderMusicPage() {
         ? createLatestAlbumCard(latestAlbum)
         : '<p>Новый альбом не найден</p>';
 
-    // Концерты
     const concerts = musicData.filter(item => item.type === "concert");
     concertsContainerEl.innerHTML = concerts.map(createConcertCard).join('');
 
-    // Артисты
     const artists = musicData.filter(item => item.type === "artist");
     artistsContainerEl.innerHTML = artists.map(createArtistCard).join('');
 
-    // Альбомы
     const albums = musicData.filter(item => item.type === "album");
     albumsContainerEl.innerHTML = albums.map(createAlbumCard).join('');
 
@@ -221,5 +214,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadLayout();
     await loadData();
     renderMusicPage();
-    await setupSearch(); // <-- здесь запускаем универсальный поиск
+    await setupSearch(); 
 });
